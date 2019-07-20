@@ -207,26 +207,47 @@ An algorithm are generally analyzed on two factors − time and space. That is, 
 
 
 
-<details><summary><b> </b></summary>
-   <p>
-		
-   </p>
+<details><summary><b>What is asymptotic analysis of an algorithm?  </b></summary>
+
+> Asymptotic analysis of an algorithm, refers to defining the mathematical boundation/framing of its run-time performance. Using asymptotic analysis, we can very well conclude the best case, average case and worst case scenario of an algorithm.
+
 </details>
 
 
 
-<details><summary><b> </b></summary>
-   <p>
-		
-   </p>
+<details><summary><b>What is linear data structure and what are common operations to perform on it?  </b></summary>
+
+
+> A linear data-structure has sequentially arranged data items. The next item can be located in the next memory address. It is stored and accessed in a sequential manner. Array and list are example of linear data structure.
+
+The following operations are commonly performed on any data-structure:
+
+    Insertion − adding a data item
+    Deletion − removing a data item
+    Traversal − accessing and/or printing all data items
+    Searching − finding a particular data item
+    Sorting − arranging data items in a pre-defined sequence
+
+
 </details>
 
 
 
-<details><summary><b> </b></summary>
-   <p>
-		
-   </p>
+<details><summary><b>What examples of greedy algorithms do you know? </b></summary>
+
+
+> The below given problems find their solution using greedy algorithm approach:
+
+    Travelling Salesman Problem
+    Prim's Minimal Spanning Tree Algorithm
+    Kruskal's Minimal Spanning Tree Algorithm
+    Dijkstra's Minimal Spanning Tree Algorithm
+    Graph - Map Coloring
+    Graph - Vertex Cover
+    Knapsack Problem
+    Job Scheduling Problem
+
+
 </details>
 
 
