@@ -4,6 +4,7 @@ Common Junior dev Questions curated from the internet.<br>
 *Disclaimer* I'm not in HR.
 Sources
 1. [interview-questions-for-graduatejunior-software-developers](https://ilovefoobar.wordpress.com/2012/12/15/interview-questions-for-graduatejunior-software-developers/)
+2. [https://www.fullstack.cafe/](https://www.fullstack.cafe/)
 
 <br>
 
@@ -162,21 +163,27 @@ SELECT ProductID, count(*) AS NumSales FROM Orders GROUP BY ProductID DESC;
 </details>
 
 
-<details><summary><b> </b></summary>
-   <p>
-		
-   </p>
+<details><summary><b> What is data-structure? </b></summary>
+
+> Data structure availability may vary by programming languages. Commonly available data structures are:
+   * list,
+   * arrays,
+   * stack,
+   * queues,
+   * graph,
+   * tree etc
+
 </details>
 
 
-<details><summary><b> </b></summary>
-   <p>
-		
-   </p>
+<details><summary><b> What is algorithm?</b></summary>
+  
+  > Algorithm is a step by step procedure, which defines a set of instructions to be executed in certain order to get the desired output.
+  
 </details>
 
 
-<details><summary><b> </b></summary>
+<details><summary><b>What is linear searching? </b></summary>
    <p>
 		
    </p>
