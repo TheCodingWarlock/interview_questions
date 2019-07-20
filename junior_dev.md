@@ -179,28 +179,30 @@ SELECT ProductID, count(*) AS NumSales FROM Orders GROUP BY ProductID DESC;
 <details><summary><b> What is algorithm?</b></summary>
   
   > Algorithm is a step by step procedure, which defines a set of instructions to be executed in certain order to get the desired output.
-  
+
 </details>
 
 
 <details><summary><b>What is linear searching? </b></summary>
-   <p>
-		
-   </p>
+
+> Linear search or sequential search is a method for finding a target value within a list. It sequentially checks each element of the list for the target value until a match is found or until all the elements have been searched. Linear search runs in at worst linear time and makes at most n comparisons, where n is the length of the list. 
+
 </details>
 
 
-<details><summary><b> </b></summary>
-   <p>
-		
-   </p>
+<details><summary><b>  What is a graph? </b></summary>
+ 
+  > A graph is a pictorial representation of a set of objects where some pairs of objects are connected by links. The interconnected objects are represented by points termed as vertices, and the links that connect the vertices are called edges.
+
 </details>
 
 
-<details><summary><b> </b></summary>
-   <p>
-		
-   </p>
+<details><summary><b> Why we need to do algorithm analysis?  </b></summary>
+
+>A problem can be solved in more than one ways. So, many solution algorithms can be derived for a given problem. We analyze available algorithms to find and implement the best suitable algorithm.
+
+An algorithm are generally analyzed on two factors − time and space. That is, how much execution time and how much extra space required by the algorithm.
+
 </details>
 
 
