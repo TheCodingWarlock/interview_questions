@@ -355,11 +355,196 @@ Bubble sort has a worst-case and average complexity of О(n2), where n is the nu
 <details><summary><b> What is Selection Sort?  </b></summary>
    
   > Selection sort is in-place sorting technique. It divides the data set into two sub-lists: sorted and unsorted. Then it selects the minimum element from unsorted sub-list and places it into the sorted list. This iterates unless all the elements from unsorted sub-list are consumed into sorted sub-list.
+
+</details>
+
+#### Java OOP
+
+<details><summary><b> What is JVM? Why is Java called the “Platform Independent Programming Language”? </b></summary>
+  
+  > A Java virtual machine (JVM) is a process virtual machine that can execute Java bytecode. Each Java source file is compiled into a bytecode file, which is executed by the JVM. Java was designed to allow application programs to be built that could be run on any platform, without having to be rewritten or recompiled by the programmer for each separate platform. A Java virtual machine makes this possible, because it is aware of the specific instruction lengths and other particularities of the underlying hardware platform.
+
+</details>
+
+<details><summary><b> What is the Difference between JDK and JRE? </b></summary>
+
+>  The Java Runtime Environment (JRE) is basically the Java Virtual Machine (JVM) where your Java programs are being executed. It also includes browser plugins for applet execution. The Java Development Kit (JDK) is the full featured Software Development Kit for Java, including the JRE, the compilers and tools (like JavaDoc, and Java Debugger), in order for a user to develop, compile and execute Java applications.
+  
+</details>
+
+<details><summary><b> What are the two types of Exceptions in Java? Which are the differences between them? </b></summary>
+  
+  > Java has two types of exceptions: checked exceptions and unchecked exceptions. Unchecked exceptions do not need to be declared in a method or a constructor’s throws clause, if they can be thrown by the execution of the method or the constructor, and propagate outside the method or constructor boundary. On the other hand, checked exceptions must be declared in a method or a constructor’s throws clause. 
+
+</details>
+
+
+<details><summary><b> What is the difference between an Applet and a Java Application? </b></summary>
+
+> Applets are executed within a java enabled browser, but a Java application is a standalone Java program that can be executed outside of a browser. However, they both require the existence of a Java Virtual Machine (JVM). Furthermore, a Java application requires a main method with a specific signature, in order to start its execution. Java applets don’t need such a method to start their execution. Finally, Java applets typically use a restrictive security policy, while Java applications usually use more relaxed security policies.
+  
+</details>
+
+
+<details><summary><b>  Let's talk Swing. What is the difference between a Choice and a List? </b></summary>
+
+>   A Choice is displayed in a compact form that must be pulled down, in order for a user to be able to see the list of all available choices. Only one item may be selected from a Choice. A List may be displayed in such a way that several List items are visible. A List supports the selection of one or more List items.
+
+</details>
+
+
+<details><summary><b> What is a JSP Page? </b></summary>
+  
+> A Java Server Page (JSP) is a text document that contains two types of text: static data and JSP elements. Static data can be expressed in any text-based format, such as HTML or XML. JSP is a technology that mixes static content with dynamically-generated content.
+
+</details>
+
+
+<details><summary><b>  What is a Servlet? </b></summary>
+ 
+ > The servlet is a Java programming language class used to process client requests and generate dynamic web content. Servlets are mostly used to process or store data submitted by an HTML form, provide dynamic content and manage state information that does not exist in the stateless HTTP protocol.
+
+</details>
+
+
+<details><summary><b>  What does the “static” keyword mean? Can you override private or static method in Java?  </b></summary>
+ 
+ > The static keyword denotes that a member variable or method can be accessed, without requiring an instantiation of the class to which it belongs. A user cannot override static methods in Java, because method overriding is based upon dynamic binding at runtime and static methods are statically binded at compile time. A static method is not associated with any instance of a class so the concept is not applicable.
+
+</details>
+
+
+<details><summary><b> What are the Data Types supported by Java? What is Autoboxing and Unboxing?  </b></summary>
+ 
+> The eight primitive data types supported by the Java programming language are:
+
+    byte
+    short
+    int
+    long
+    float
+    double
+    boolean
+    char
+
+</details>
+
+
+<details><summary><b> What is Function Overriding and Overloading in Java? </b></summary>
+ 
+ > Method overloading in Java occurs when two or more methods in the same class have the exact same name, but different parameters. On the other hand, method overriding is defined as the case when a child class redefines the same method as a parent class. Overridden methods must have the same name, argument list, and return type. The overriding method may not limit the access of the method it overrides.
+  
+</details>
+
+
+<details><summary><b> </b></summary>
+  
+</details>
+
+
+<details><summary><b> </b></summary>
+  
+</details>
+
+
+<details><summary><b> </b></summary>
+  
+</details>
+
+
+<details><summary><b> </b></summary>
+  
+</details>
+
+
+<details><summary><b> </b></summary>
   
 </details>
 
 <details><summary><b> </b></summary>
-   <p>
-		
-   </p>
+  
 </details>
+
+
+<details><summary><b> </b></summary>
+  
+</details>
+
+
+<details><summary><b> </b></summary>
+  
+</details>
+
+
+<details><summary><b> </b></summary>
+  
+</details>
+
+<details><summary><b> </b></summary>
+  
+</details>
+
+
+<details><summary><b> </b></summary>
+  
+</details>
+
+
+<details><summary><b> </b></summary>
+  
+</details>
+
+
+<details><summary><b> </b></summary>
+  
+</details>
+
+
+<details><summary><b> </b></summary>
+  
+</details>
+
+
+<details><summary><b> </b></summary>
+  
+</details>
+
+
+<details><summary><b> </b></summary>
+  
+</details>
+
+
+<details><summary><b> </b></summary>
+  
+</details>
+
+<details><summary><b> </b></summary>
+  
+</details>
+
+
+<details><summary><b> </b></summary>
+  
+</details>
+
+
+<details><summary><b> </b></summary>
+  
+</details>
+
+
+<details><summary><b> </b></summary>
+  
+</details>
+
+
+<details><summary><b> </b></summary>
+  
+</details>
+
+
+<details><summary><b> </b></summary>
+  
+</details>
+
