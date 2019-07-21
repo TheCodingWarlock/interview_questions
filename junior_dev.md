@@ -251,6 +251,94 @@ The following operations are commonly performed on any data-structure:
 </details>
 
 
+<details><summary><b> What are some examples of divide and conquer algorithms? </b></summary>
+
+> The below given problems find their solution using divide and conquer algorithm approach:
+
+    Merge Sort
+    Quick Sort
+    Binary Search
+    Strassen's Matrix Multiplication
+    Closest pair (points)
+
+
+</details>
+
+
+<details><summary><b> What are some examples of dynamic programming algorithms? </b></summary>
+   
+
+> The below given problems find their solution using divide and conquer algorithm approach:
+
+    Fibonacci number series
+    Knapsack problem
+    Tower of Hanoi
+    All pair shortest path by Floyd-Warshall
+    Shortest path by Dijkstra
+    Project scheduling
+
+
+</details>
+
+
+
+
+<details><summary><b>Why do we use stacks? </b></summary>
+ 
+ > In data-structure, stack is an Abstract Data Type (ADT) used to store and retrieve values in Last In First Out (LIFO) method.
+
+Stacks follows LIFO method and addition and retrieval of a data item takes only Ο(n) time. Stacks are used where we need to access data in the reverse order or their arrival. Stacks are used commonly in recursive function calls, expression parsing, depth first traversal of graphs etc.
+
+The below operations can be performed on a stack:
+
+    push() − adds an item to stack
+    pop() − removes the top stack item
+    peek() − gives value of top item without removing it
+    isempty() − checks if stack is empty
+    isfull() − checks if stack is full
+
+
+</details>
+
+
+
+
+<details><summary><b> Why do we use queues?  </b></summary>
+  
+
+
+
+Queue is an abstract data structure (ADS), somewhat similar to stack. In contrast to stack, queue is opened at both end. One end is always used to insert data (enqueue) and the other is used to remove data (dequeue). Queue follows First-In-First-Out (FIFO) methodology, i.e., the data item stored first will be accessed first.
+
+As queues follows FIFO method, they are used when we need to work on data-items in exact sequence of their arrival. Every operating system maintains queues of various processes. Priority queues and breadth first traversal of graphs are some examples of queues.
+
+The below operations can be performed on a queue:
+
+    enqueue() − adds an item to rear of the queue
+    dequeue() − removes the item from front of the queue
+    peek() − gives value of front item without removing it
+    isempty() − checks if stack is empty
+    isfull() − checks if stack is full
+
+
+</details>
+
+
+
+<details><summary><b> What is the difference between Linear Search and Binary Search? </b></summary>
+   <p>
+		
+   </p>
+</details>
+
+
+<details><summary><b> </b></summary>
+   <p>
+		
+   </p>
+</details>
+
+
 <details><summary><b> </b></summary>
    <p>
 		
