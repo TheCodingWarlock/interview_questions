@@ -326,18 +326,37 @@ The below operations can be performed on a queue:
 
 
 <details><summary><b> What is the difference between Linear Search and Binary Search? </b></summary>
-   <p>
-		
-   </p>
+  
+
+    A linear search looks down a list, one item at a time, without jumping. In complexity terms this is an O(n) search - the time taken to search the list gets bigger at the same rate as the list does.
+
+    A binary search is when you start with the middle of a sorted list, and see whether that's greater than or less than the value you're looking for, which determines whether the value is in the first or second half of the list. Jump to the half way through the sublist, and compare again etc. In complexity terms this is an O(log n) search - the number of search operations grows more slowly than the list does, because you're halving the "search space" with each operation.
+
+Comparing the two:
+
+    Binary search requires the input data to be sorted; linear search doesn't
+    Binary search requires an ordering comparison; linear search only requires equality comparisons
+    Binary search has complexity O(log n); linear search has complexity O(n)
+    Binary search requires random access to the data; linear search only requires sequential access (this can be very important - it means a linear search can stream data of arbitrary size)
+
+
 </details>
 
 
-<details><summary><b> </b></summary>
-   <p>
-		
-   </p>
+<details><summary><b> What is an average case complexity of Bubble Sort? </b></summary>
+   
+   > Bubble sort, sometimes referred to as sinking sort, is a simple sorting algorithm that repeatedly steps through the list to be sorted, compares each pair of adjacent items and swaps them if they are in the wrong order. The pass through the list is repeated until no swaps are needed, which indicates that the list is sorted.
+
+Bubble sort has a worst-case and average complexity of О(n2), where n is the number of items being sorted. Most practical sorting algorithms have substantially better worst-case or average complexity, often O(n log n). Therefore, bubble sort is not a practical sorting algorithm.
+
 </details>
 
+
+<details><summary><b> What is Selection Sort?  </b></summary>
+   
+  > Selection sort is in-place sorting technique. It divides the data set into two sub-lists: sorted and unsorted. Then it selects the minimum element from unsorted sub-list and places it into the sorted list. This iterates unless all the elements from unsorted sub-list are consumed into sorted sub-list.
+  
+</details>
 
 <details><summary><b> </b></summary>
    <p>
