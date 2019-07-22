@@ -523,60 +523,80 @@ Java Collections Framework provides a well designed set of interfaces and classe
 <details><summary><b>What does System.gc() and Runtime.gc() methods do?  </b></summary>
  
 > These methods can be used as a hint to the JVM, in order to start a garbage collection. However, this it is up to the Java Virtual Machine (JVM) to start the garbage collection immediately or later in time.
-  
+
 </details>
 
 
-<details><summary><b> </b></summary>
-  
+<details><summary><b>When does an Object becomes eligible for Garbage collection in Java ?  </b></summary>
+
+> A Java object is subject to garbage collection when it becomes unreachable to the program in which it is currently used.
+
 </details>
 
 
-<details><summary><b> </b></summary>
-  
+<details><summary><b> What is the difference between Exception and Error in java?  </b></summary>
+
+> Exception and Error classes are both subclasses of the Throwable class. The Exception class is used for exceptional conditions that a user’s program should catch. The Error class defines exceptions that are not excepted to be caught by the user program.
+
 </details>
 
 
-<details><summary><b> </b></summary>
-  
+<details><summary><b>  What is the importance of finally block in exception handling?  </b></summary>
+
+> A finally block will always be executed, whether or not an exception is actually thrown. Even in the case where the catch statement is missing and an exception is thrown, the finally block will still be executed. Last thing to mention is that the finally block is used to release resources like I/O buffers, database connections, etc.
+
 </details>
 
 
-<details><summary><b> </b></summary>
-  
+<details><summary><b> What will happen to the Exception object after exception handling? </b></summary>
+
+> The Exception object will be garbage collected in the next garbage collection.
+
 </details>
 
 
-<details><summary><b> </b></summary>
-  
+<details><summary><b> What is an Java Applet?  </b></summary>
+
+A Java Applet is program that can be included in a HTML page and be executed in a java enabled client browser. Applets are used for creating dynamic and interactive web applications.
+
 </details>
 
 
-<details><summary><b> </b></summary>
-  
+<details><summary><b> What is a layout manager?</b></summary>
+  A layout manager is the used to organize the components in a container.
 </details>
 
 
-<details><summary><b> </b></summary>
-  
+<details><summary><b> How can a GUI component handle its own events? </b></summary>
+
+> A GUI component can handle its own events, by implementing the corresponding event-listener interface and adding itself as its own event listener.
+
 </details>
 
-<details><summary><b> </b></summary>
-  
-</details>
+<details><summary><b> What advantage do Java’s layout managers provide over traditional windowing systems? </b></summary>
 
+> Java uses layout managers to lay out components in a consistent manner, across all windowing platforms. Since layout managers aren’t tied to absolute sizing and positioning, they are able to accomodate platform-specific differences among windowing systems
 
-<details><summary><b> </b></summary>
-  
-</details>
-
-
-<details><summary><b> </b></summary>
-  
 </details>
 
 
-<details><summary><b> </b></summary>
+<details><summary><b>  What is the design pattern that Java uses for all Swing components?  </b></summary>
+
+> The design pattern used by Java for all Swing components is the Model View Controller (MVC) pattern.
+
+</details>
+
+
+<details><summary><b> What is JDBC? </b></summary>
+
+> JDBC is an abstraction layer that allows users to choose between databases. JDBC enables developers to write database applications in Java, without having to concern themselves with the underlying details of a particular database.
+
+</details>
+
+
+<details><summary><b>  What is the purpose Class.forName method? </b></summary>
+
+> This method is used to method is used to load the driver that will establish a connection to the database.
   
 </details>
 
