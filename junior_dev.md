@@ -433,54 +433,96 @@ Bubble sort has a worst-case and average complexity of О(n2), where n is the nu
 <details><summary><b> What is Function Overriding and Overloading in Java? </b></summary>
  
  > Method overloading in Java occurs when two or more methods in the same class have the exact same name, but different parameters. On the other hand, method overriding is defined as the case when a child class redefines the same method as a parent class. Overridden methods must have the same name, argument list, and return type. The overriding method may not limit the access of the method it overrides.
+
+</details>
+
+
+<details><summary><b>  What is the difference between an Interface and an Abstract class? </b></summary>
+
+> Java provides and supports the creation both of abstract classes and interfaces. Both implementations share some common characteristics, but they differ in the following features:
+
+    All methods in an interface are implicitly abstract. On the other hand, an abstract class may contain both abstract and non-abstract methods.
+    A class may implement a number of Interfaces, but can extend only one abstract class.
+    In order for a class to implement an interface, it must implement all its declared methods. However, a class may not implement all declared methods of an abstract class. Though, in this case, the sub-class must also be declared as abstract.
+    Abstract classes can implement interfaces without even providing the implementation of interface methods.
+    Variables declared in a Java interface is by default final. An abstract class may contain non-final variables.
+    Members of a Java interface are public by default. A member of an abstract class can either be private, protected or public.
+    An interface is absolutely abstract and cannot be instantiated. An abstract class also cannot be instantiated, but can be invoked if it contains a main method.
+
+</details>
+
+
+<details><summary><b> What are pass by reference and pass by value?  </b></summary>
+
+> When an object is passed by value, this means that a copy of the object is passed. Thus, even if changes are made to that object, it doesn’t affect the original value. When an object is passed by reference, this means that the actual object is not passed, rather a reference of the object is passed. Thus, any changes made by the external method, are also reflected in all places.
+
+</details>
+
+
+<details><summary><b>  What is the difference between processes and threads?  </b></summary>
+
+> A process is an execution of a program, while a Thread is a single execution sequence within a process. A process can contain multiple threads. A Thread is sometimes called a lightweight process.
+
+</details>
+
+
+<details><summary><b> What are the basic interfaces of Java Collections Framework? </b></summary>
+ 
+> 
+
+Java Collections Framework provides a well designed set of interfaces and classes that support operations on a collections of objects. The most basic interfaces that reside in the Java Collections Framework are:
+
+    Collection, which represents a group of objects known as its elements.
+    Set, which is a collection that cannot contain duplicate elements.
+    List, which is an ordered collection and can contain duplicate elements.
+    Map, which is an object that maps keys to values and cannot contain duplicate keys.
+
   
 </details>
 
 
-<details><summary><b> </b></summary>
+<details><summary><b> What is an Iterator? </b></summary>
+
+> The Iterator interface provides a number of methods that are able to iterate over any Collection. Each Java Collection contains the Iterator method that returns an Iterator instance. Iterators are capable of removing elements from the underlying collection during the iteration.
+
+</details>
+
+<details><summary><b> How HashMap works in Java? </b></summary>
+
+>A HashMap in Java stores key-value pairs. The HashMap requires a hash function and uses hashCode and equals methods, in order to put and retrieve elements to and from the collection respectively. When the put method is invoked, the HashMap calculates the hash value of the key and stores the pair in the appropriate index inside the collection. If the key exists, its value is updated with the new value. Some important characteristics of a HashMap are its capacity, its load factor and the threshold resizing.
   
 </details>
 
 
-<details><summary><b> </b></summary>
+<details><summary><b>What differences exist between HashMap and Hashtable? </b></summary>
+
+> Both the HashMap and Hashtable classes implement the Map interface and thus, have very similar characteristics. However, they differ in the following features:
+
+    A HashMap allows the existence of null keys and values, while a Hashtable doesn’t allow neither null keys, nor null values.
+    A Hashtable is synchronized, while a HashMap is not. Thus, HashMap is preferred in single-threaded environments, while a Hashtable is suitable for multi-threaded environments.
+    A HashMap provides its set of keys and a Java application can iterate over them. Thus, a HashMap is fail-fast. On the other hand, a Hashtable provides an Enumeration of its keys.
+    The Hashtable class is considered to be a legacy class.
+
   
 </details>
 
 
-<details><summary><b> </b></summary>
+<details><summary><b>What do you know about the big-O notation and can you give some examples with respect to different data structures? </b></summary>
+
+> The Big-O notation simply describes how well an algorithm scales or performs in the worst case scenario as the number of elements in a data structure increases. The Big-O notation can also be used to describe other behavior such as memory consumption. Since the collection classes are actually data structures, we usually use the Big-O notation to chose the best implementation to use, based on time, memory and performance. Big-O notation can give a good indication about performance for large amounts of data.
   
 </details>
 
 
-<details><summary><b> </b></summary>
-  
+<details><summary><b>  What is the purpose of garbage collection in Java, and when is it used?  </b></summary>
+
+> The purpose of garbage collection is to identify and discard those objects that are no longer needed by the application, in order for the resources to be reclaimed and reused.
+
 </details>
 
-
-<details><summary><b> </b></summary>
-  
-</details>
-
-<details><summary><b> </b></summary>
-  
-</details>
-
-
-<details><summary><b> </b></summary>
-  
-</details>
-
-
-<details><summary><b> </b></summary>
-  
-</details>
-
-
-<details><summary><b> </b></summary>
-  
-</details>
-
-<details><summary><b> </b></summary>
+<details><summary><b>What does System.gc() and Runtime.gc() methods do?  </b></summary>
+ 
+> These methods can be used as a hint to the JVM, in order to start a garbage collection. However, this it is up to the Java Virtual Machine (JVM) to start the garbage collection immediately or later in time.
   
 </details>
 
