@@ -1,7 +1,7 @@
 # Junior Developer Interview Questions
 
 Common Junior dev Questions curated from the internet.<br>
-*Disclaimer* I'm not in HR.
+*Disclaimer* I'm not in HR.<br>
 Sources
 1. [interview-questions-for-graduatejunior-software-developers](https://ilovefoobar.wordpress.com/2012/12/15/interview-questions-for-graduatejunior-software-developers/)
 2. [https://www.fullstack.cafe/](https://www.fullstack.cafe/)
@@ -11,11 +11,12 @@ Sources
 ## Questions
 <details><summary><b>Tell us  about yourself.</b></summary>
 <p>
-one of the best strategy is to focus on this employer and your fit for this job. No body wants to know about your 10 cats.
+one of the best strategy is to focus on the employer and your fit for this job. No body wants to know about your 10 cats.
 </p>
 </details>
 <details><summary><b>Other than study and programming, what you like to do during your free time.
-> 
+
+> show you have a life but keep it relevant to the job
 
 <details><summary><b>What is difference between overwriting and overloading in OOP.</b></summary>
 <p>
@@ -29,13 +30,14 @@ one of the best strategy is to focus on this employer and your fit for this job.
 <details><summary><b>Tell us about your experience while working in team.</b></summary>
 <p>
 
-> Aim of this question is to findout if you're a team play. Don't imply that without you the team wouldn't make it also be careful not to come across as the weakest link in the team. Mention your achievemnts personal and also as a team.
+> Aim of this question is to find out if you're a team play. Don't imply that without you the team wouldn't make it also be careful not to come across as the weakest link in the team. Mention your achievemnts personal and also as a team.
 
 </p>
 </details>
-<details><summary><b>How do you manage conflicts in a group assignments.
-> * .
-</p>
+<details><summary><b>How do you manage conflicts in a group assignments. </b></summary>
+
+> aim is to show you're mature and professional in handling conflict.
+
 </details>
 
 <details><summary><b>Write a sql query to join two tables in database.</b></summary>
@@ -601,12 +603,86 @@ A Java Applet is program that can be included in a HTML page and be executed in 
 </details>
 
 
-<details><summary><b> </b></summary>
+<details><summary><b> How are the JSP requests handled?  </b></summary>
+
+> On the arrival of a JSP request, the browser first requests a page with a .jsp extension. Then, the Web server reads the request and using the JSP compiler, the Web server converts the JSP page into a servlet class. Notice that the JSP file is compiled only on the first request of the page, or if the JSP file has changed.The generated servlet class is invoked, in order to handle the browser’s request. Once the execution of the request is over, the servlet sends a response back to the client
+
+</details>
+
+
+<details><summary><b>  What are Directives? </b></summary>
+
+> What are the different types of Directives available in JSP ? Directives are instructions that are processed by the JSP engine, when the page is compiled to a servlet. Directives are used to set page-level instructions, insert data from external files, and specify custom tag libraries. Directives are defined between < %@ and % >.The different types of directives are shown below:
+
+    Include directive: it is used to include a file and merges the content of the file with the current page.
+    Page directive: it is used to define specific attributes in the JSP page, like error page and buffer.
+    Taglib: it is used to declare a custom tag library which is used in the page.
+
+
   
+</details>
+
+
+<details><summary><b> What are JSP actions?  </b></summary>
+ 
+> 
+
+JSP actions use constructs in XML syntax to control the behavior of the servlet engine. JSP actions are executed when a JSP page is requested. They can be dynamically inserted into a file, re-use JavaBeans components, forward the user to another page, or generate HTML for the Java plugin.Some of the available actions are listed below:
+
+    jsp:include – includes a file, when the JSP page is requested.
+    jsp:useBean – finds or instantiates a JavaBean.
+    jsp:setProperty – sets the property of a JavaBean.
+    jsp:getProperty – gets the property of a JavaBean.
+    jsp:forward – forwards the requester to a new page.
+    jsp:plugin – generates browser-specific code.
+
+
+  
+</details>
+
+
+<details><summary><b> What are Decalarations? </b></summary>
+
+> Declarations are similar to variable declarations in Java. Declarations are used to declare variables for subsequent use in expressions or scriptlets. To add a declaration, you must use the sequences to enclose your declarations.
+
+</details>
+
+
+<details><summary><b>What are Expressions?  </b></summary>
+  
+> A JSP expression is used to insert the value of a scripting language expression, converted into a string, into the data stream returned to the client, by the web server. Expressions are defined between <% = and %> tags.
+
+</details>
+
+
+<details><summary><b> Explain the architechure of a Servlet </b></summary>
+
+> The core abstraction that must be implemented by all servlets is the javax.servlet.Servlet interface. Each servlet must implement it either directly or indirectly, either by extending javax.servlet.GenericServlet or javax.servlet.http.HTTPServlet. Finally, each servlet is able to serve multiple requests in parallel using multithreading.
+
+</details>
+
+
+<details><summary><b>What is meant by a Web Application?  </b></summary>
+
+> A Web application is a dynamic extension of a Web or application server. There are two types of web applications: presentation-oriented and service-oriented. A presentation-oriented Web application generates interactive web pages, which contain various types of markup language and dynamic content in response to requests. On the other hand, a service-oriented web application implements the endpoint of a web service. In general, a Web application can be seen as a collection of servlets installed under a specific subset of the server’s URL namespace.
+
+</details>
+
+
+<details><summary><b>  What’s the difference between sendRedirect and forward methods? </b></summary>
+
+> The sendRedirect method creates a new request, while the forward method just forwards a request to a new target. The previous request scope objects are not available after a redirect, because it results in a new request. On the other hand, the previous request scope objects are available after forwarding. FInally, in general, the sendRedirect method is considered to be slower compare to the forward method.
+
+</details>
+
+
+<details><summary><b> Explain Serialization and Deserialization </b></summary>
+ 
+> Java provides a mechanism, called object serialization where an object can be represented as a sequence of bytes and includes the object’s data, as well as information about the object’s type, and the types of data stored in the object. Thus, serialization can be seen as a way of flattening objects, in order to be stored on disk, and later, read back and reconstituted. Deserialisation is the reverse process of converting an object from its flattened state to a live object.
+
 </details>
 
 
 <details><summary><b> </b></summary>
   
 </details>
-
