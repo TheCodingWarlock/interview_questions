@@ -42,11 +42,12 @@ one of the best strategy is to focus on the employer and your fit for this job. 
 
 
 <details><summary><b> Difference btwn Localstorage, sessionstorage and cookie </b></summary>
-localStorage: stores data with no expiration date, and gets cleared only through JavaScript, or clearing the Browser Cache / Locally Stored Data
 
-sessionStorage: similar to localStorage but expires when the browser closed (not the tab).
+> localStorage: stores data with no expiration date, and gets cleared only through JavaScript, or clearing the Browser Cache / Locally Stored Data
 
-Cookie: stores data that has to be sent back to the server with subsequent requests. Its expiration varies based on the type and the expiration duration can be set from either server-side or client-side (normally from server-side).
+> sessionStorage: similar to localStorage but expires when the browser closed (not the tab).
+
+> Cookie: stores data that has to be sent back to the server with subsequent requests. Its expiration varies based on the type and the expiration duration can be set from either server-side or client-side (normally from server-side).
   
 </details>
 
@@ -698,14 +699,6 @@ JSP actions use constructs in XML syntax to control the behavior of the servlet 
 </details>
 
 
-<details><summary><b> Difference btwn Localstorage, sessionstorage and cookie </b></summary>
-localStorage: stores data with no expiration date, and gets cleared only through JavaScript, or clearing the Browser Cache / Locally Stored Data
-
-sessionStorage: similar to localStorage but expires when the browser closed (not the tab).
-
-Cookie: stores data that has to be sent back to the server with subsequent requests. Its expiration varies based on the type and the expiration duration can be set from either server-side or client-side (normally from server-side).
-
-</details>
 
 
 
