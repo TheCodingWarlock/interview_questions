@@ -216,122 +216,175 @@ That is, Y = f(X)
 </details>
 
 
-<details><summary><b> </b></summary>
+<details><summary><b> What is Machine Learning? </b></summary>
 
- >
-
-</details>
-
-<details><summary><b> </b></summary>
-
- >
+ > Machine Learning explores the study and construction of algorithms that can learn from and make predictions on data. Closely related to computational statistics. Used to devise complex models and algorithms that lend themselves to a prediction which in commercial use is known as predictive analytics.
 
 </details>
 
+<details><summary><b> What is logistic regression? State an example when you have used logistic regression recently. </b></summary>
 
-<details><summary><b> </b></summary>
+ > Logistic Regression often referred as logit model is a technique to predict the binary outcome from a linear combination of predictor variables. 
 
- >
+For example, if you want to predict whether a particular political leader will win the election or not. In this case, the outcome of prediction is binary i.e. 0 or 1 (Win/Lose). The predictor variables here would be the amount of money spent for election campaigning of a particular candidate, the amount of time spent in campaigning, etc.
 
 </details>
 
 
-<details><summary><b> </b></summary>
+<details><summary><b> What are Recommender Systems? </b></summary>
 
- >
+ > Recommender Systems are a subclass of information filtering systems that are meant to predict the preferences or ratings that a user would give to a product. Recommender systems are widely used in movies, news, research articles, products, social tags, music, etc.
+
+Examples include movie recommenders in IMDB, Netflix & BookMyShow, product recommenders in e-commerce sites like Amazon, eBay & Flipkart, YouTube video recommendations and game recommendations in Xbox.
+
 
 </details>
 
 
-<details><summary><b> </b></summary>
+<details><summary><b> What is Linear Regression? </b></summary>
 
- >
+ > Linear regression is a statistical technique where the score of a variable Y is predicted from the score of a second variable X. X is referred to as the predictor variable and Y as the criterion variable.
+
+</details>
+
+
+<details><summary><b> What is Collaborative filtering? </b></summary>
+
+ > The process of filtering used by most of the recommender systems to find patterns or information by collaborating viewpoints, various data sources and multiple agents.
 
 </details>
 
 
 
-<details><summary><b> </b></summary>
+<details><summary><b>How can outlier values be treated? </b></summary>
 
- >
+ > Outlier values can be identified by using univariate or any other graphical analysis method. If the number of outlier values is few then they can be assessed individually but for a large number of outliers, the values can be substituted with either the 99th or the 1st percentile values.
 
-</details>
+All extreme values are not outlier values. The most common ways to treat outlier values
 
-
-<details><summary><b> </b></summary>
-
- >
+    To change the value and bring in within a range.
+    To just remove the value.
 
 </details>
 
 
-<details><summary><b> </b></summary>
+<details><summary><b> What are the various steps involved in an analytics project? </b></summary>
 
- >
+ > The following are the various steps involved in an analytics project:
 
-</details>
-
-
-<details><summary><b> </b></summary>
-
- >
-
-</details>
-
-<details><summary><b> </b></summary>
-
- >
+    * Understand the Business problem
+    * Explore the data and become familiar with it.
+    * Prepare the data for modeling by detecting outliers, treating missing values, transforming variables, etc.
+    * After data preparation, start running the model, analyze the result and tweak the approach. This is an iterative step until the best possible outcome is achieved.
+    * Validate the model using a new data set.
+    * Start implementing the model and track the result to analyze the performance of the model over the period of time.
 
 </details>
 
 
-<details><summary><b> </b></summary>
+<details><summary><b>  During analysis, how do you treat missing values? </b></summary>
 
- >
+ > The extent of the missing values is identified after identifying the variables with missing values. If any patterns are identified the analyst has to concentrate on them as it could lead to interesting and meaningful business insights.
 
-</details>
+> If there are no patterns identified, then the missing values can be substituted with mean or median values (imputation) or they can simply be ignored. Assigning a default value which can be mean, minimum or maximum value. Getting into the data is important.
 
-<details><summary><b> </b></summary>
+> If it is a categorical variable, the default value is assigned. The missing value is assigned a default value. If you have a distribution of data coming, for normal distribution give the mean value.
 
- >
-
-</details>
-
-
-<details><summary><b> </b></summary>
-
- >
-
-</details>
-
-<details><summary><b> </b></summary>
-
- >
-
-</details>
-
-<details><summary><b> </b></summary>
-
- >
-
-</details>
-
-<details><summary><b> </b></summary>
-
- >
+> If 80% of the values for a variable are missing then you can answer that you would be dropping the variable instead of treating the missing values.
 
 </details>
 
 
-<details><summary><b> </b></summary>
+<details><summary><b> What do you mean by Deep Learning and Why has it become popular now? </b></summary>
 
- >
+ > Deep Learning is nothing but a paradigm of machine learning which has shown incredible promise in recent years. This is because of the fact that Deep Learning shows a great analogy with the functioning of the human brain.
+
+Now although Deep Learning has been around for many years, the major breakthroughs from these techniques came just in recent years. This is because of two main reasons:
+
+    The increase in the amount of data generated through various sources
+    The growth in hardware resources required to run these models
+
+GPUs are multiple times faster and they help us build bigger and deeper deep learning models in comparatively less time than we required previously
 
 </details>
 
-<details><summary><b> </b></summary>
+<details><summary><b> What are Artificial Neural Networks? </b></summary>
 
- >
+ > Artificial Neural networks are a specific set of algorithms that have revolutionized machine learning. They are inspired by biological neural networks. Neural Networks can adapt to changing input so the network generates the best possible result without needing to redesign the output criteria.
+
+</details>
+
+
+<details><summary><b> Describe the structure of Artificial Neural Networks? </b></summary>
+
+ > Artificial Neural Networks works on the same principle as a biological Neural Network. It consists of inputs which get processed with weighted sums and Bias, with the help of Activation Functions.
+
+</details>
+
+<details><summary><b> Explain Gradient Descent. </b></summary>
+
+ > To Understand Gradient Descent, Let’s understand what is a Gradient first.
+
+> A gradient measures how much the output of a function changes if you change the inputs a little bit. It simply measures the change in all weights with regard to the change in error. You can also think of a gradient as the slope of a function.
+
+> Gradient Descent can be thought of climbing down to the bottom of a valley, instead of climbing up a hill.  This is because it is a minimization algorithm that minimizes a given function (Activation Function).
+
+
+
+</details>
+
+
+<details><summary><b>What is Back Propagation and Explain it’s Working. </b></summary>
+
+ > Backpropagation is a training algorithm used for multilayer neural network. In this method, we move the error from an end of the network to all weights inside the network and thus allowing efficient computation of the gradient.
+
+It has the following steps:
+
+    Forward Propagation of Training Data
+    Derivatives are computed using output and target
+    Back Propagate for computing derivative of error wrt output activation
+    Using previously calculated derivatives for output
+    Update the Weights
+
+
+
+</details>
+
+<details><summary><b> What are the variants of Back Propagation? </b></summary>
+
+ > *  Stochastic Gradient Descent: We use only single training example for calculation of gradient and update parameters.
+    *  Batch Gradient Descent: We calculate the gradient for the whole dataset and perform the update at each iteration.
+    *  Mini-batch Gradient Descent: It’s one of the most popular optimization algorithms. It’s a variant of Stochastic Gradient Descent and here instead of single training example, mini-batch of samples is used.
+
+</details>
+
+<details><summary><b>What are the different Deep Learning Frameworks? </b></summary>
+
+ >  Pytorch
+    TensorFlow
+    Microsoft Cognitive Toolkit
+    Keras
+    Caffe
+    Chainer
+
+</details>
+
+<details><summary><b> What is the role of Activation Function? </b></summary>
+
+ > The Activation function is used to introduce non-linearity into the neural network helping it to learn more complex function. Without which the neural network would be only able to learn linear function which is a linear combination of its input data. An activation function is a function in an artificial neuron that delivers an output based on inputs
+
+</details>
+
+
+<details><summary><b>  What is an Auto-Encoder?  </b></summary>
+
+ > Autoencoders are simple learning networks that aim to transform inputs into outputs with the minimum possible error. This means that we want the output to be as close to input as possible. We add a couple of layers between the input and the output, and the sizes of these layers are smaller than the input layer. The autoencoder receives unlabeled input which is then encoded to reconstruct the input.
+
+</details>
+
+<details><summary><b> What is a Boltzmann Machine?  </b></summary>
+
+ > Boltzmann machines have a simple learning algorithm that allows them to discover interesting features that represent complex regularities in the training data. The Boltzmann machine is basically used to optimize the weights and the quantity for the given problem. The learning algorithm is very slow in networks with many layers of feature detectors. “Restricted Boltzmann Machines” algorithm has a single layer of feature detectors which makes it faster than the rest.
 
 </details>
 
