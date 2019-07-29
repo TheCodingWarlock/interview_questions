@@ -4,7 +4,7 @@ Common Data Science questions curated from the internet.<br>
 *Disclaimer* I'm not in HR.<br>
 Sources
 1. [edureka](https://www.edureka.co/blog/interview-questions/top-data-science-interview-questions-for-budding-data-scientists/)
-
+2. [Towards Data Science](https://towardsdatascience.com/top-30-data-science-interview-questions-7dd9a96d3f5c)
 <br>
 
 <details><summary><b>What is Data Science? Also, list the differences between supervised and unsupervised learning. </b></summary>
@@ -389,119 +389,170 @@ It has the following steps:
 </details>
 
 
-<details><summary><b> </b></summary>
+<details><summary><b> What is bias, variance trade off ? </b></summary>
 
- >
+ > “Bias is error introduced in your model due to over simplification of machine learning algorithm.” It can lead to under fitting. When you train your model at that time model makes simplified assumptions to make the target function easier to understand.
 
-</details>
+    Low bias machine learning algorithms — Decision Trees, k-NN and SVM High bias machine learning algorithms — Linear Regression, Logistic Regression
 
+>  “Variance is error introduced in your model due to complex machine learning algorithm, your model learns noise also from the training data set and performs bad on test data set.” It can lead high sensitivity and over fitting.
 
+> Normally, as you increase the complexity of your model, you will see a reduction in error due to lower bias in the model. However, this only happens till a particular point. As you continue to make your model more complex, you end up over-fitting your model and hence your model will start suffering from high variance.
 
-<details><summary><b> </b></summary>
+> Bias, Variance trade off: The goal of any supervised machine learning algorithm is to have low bias and low variance to achieve good prediction performance.
 
- >
+    The k-nearest neighbours algorithm has low bias and high variance, but the trade-off can be changed by increasing the value of k which increases the number of neighbours that contribute to the prediction and in turn increases the bias of the model.
+    The support vector machine algorithm has low bias and high variance, but the trade-off can be changed by increasing the C parameter that influences the number of violations of the margin allowed in the training data which increases the bias but decreases the variance.
 
-</details>
-
-
-<details><summary><b> </b></summary>
-
- >
-
-</details>
-
-
-<details><summary><b> </b></summary>
-
- >
-
-</details>
-
-<details><summary><b> </b></summary>
-
- >
-
-</details>
-
-<details><summary><b> </b></summary>
-
- >
-
-</details>
-
-
-<details><summary><b> </b></summary>
-
- >
+There is no escaping the relationship between bias and variance in machine learning. Increasing the bias will decrease the variance. Increasing the variance will decrease the bias.
 
 </details>
 
 
 
-<details><summary><b> </b></summary>
+<details><summary><b>What is exploding gradients ? </b></summary>
 
- >
+ > Gradient is the direction and magnitude calculated during training of a neural network that is used to update the network weights in the right direction and by the right amount.
 
-</details>
+> “Exploding gradients are a problem where large error gradients accumulate and result in very large updates to neural network model weights during training.” At an extreme, the values of weights can become so large as to overflow and result in NaN values.
 
-
-<details><summary><b> </b></summary>
-
- >
-
-</details>
-
-<details><summary><b> </b></summary>
-
- >
+> This has the effect of your model being unstable and unable to learn from your training data. Now let’s understand what is the gradient.
 
 </details>
 
 
-<details><summary><b> </b></summary>
+<details><summary><b>  What is a confusion matrix ? </b></summary>
 
- >
-
-</details>
-
-
-<details><summary><b> </b></summary>
-
- >
+ > The confusion matrix is a 2X2 table that contains 4 outputs provided by the binary classifier. Various measures, such as error-rate, accuracy, specificity, sensitivity, precision and recall are derived from it. Confusion Matrix
 
 </details>
 
 
-<details><summary><b> </b></summary>
+<details><summary><b>Explain how a ROC curve works ? </b></summary>
 
- >
+ > The ROC curve is a graphical representation of the contrast between true positive rates and false positive rates at various thresholds. It is often used as a proxy for the trade-off between the sensitivity(true positive rate) and false positive rate.
+
+</details>
+
+<details><summary><b> What is selection Bias ? </b></summary>
+
+ > Selection bias occurs when sample obtained is not representative of the population intended to be analysed.
+
+</details>
+
+<details><summary><b>Explain SVM machine learning algorithm in detail. </b></summary>
+
+ > SVM stands for support vector machine, it is a supervised machine learning algorithm which can be used for both Regression and Classification. If you have n features in your training data set, SVM tries to plot it in n-dimensional space with the value of each feature being the value of a particular coordinate. SVM uses hyper planes to separate out different classes based on the provided kernel function.
 
 </details>
 
 
-<details><summary><b> </b></summary>
+<details><summary><b>What are the different kernels functions in SVM ?  </b></summary>
 
- >
+ > There are four types of kernels in SVM.
 
-</details>
-
-<details><summary><b> </b></summary>
-
- >
-
-</details>
-
-
-<details><summary><b> </b></summary>
-
- >
+    Linear Kernel
+    Polynomial kernel
+    Radial basis kernel
+    Sigmoid kernel
 
 </details>
 
 
-<details><summary><b> </b></summary>
 
- >
+<details><summary><b>What is Entropy and Information gain in Decision tree algorithm ? </b></summary>
+
+ > Entropy
+    A decision tree is built top-down from a root node and involve partitioning of data into homogenious subsets. ID3 uses enteropy to check the homogeneity of a sample. If the sample is completely homogenious then entropy is zero and if the sample is an equally divided it has entropy of one.
+
+> The Information Gain is based on the decrease in entropy after a dataset is split on an attribute. Constructing a decision tree is all about finding attributes that returns the highest information gain.
+</details>
+
+
+<details><summary><b>Explain Decision Tree algorithm in detail. </b></summary>
+
+ > Decision tree is a supervised machine learning algorithm mainly used for the Regression and Classification.It breaks down a data set into smaller and smaller subsets while at the same time an associated decision tree is incrementally developed. The final result is a tree with decision nodes and leaf nodes. Decision tree can handle both categorical and numerical data.
+
+</details>
+
+<details><summary><b>What is pruning in Decision Tree ? </b></summary>
+
+ > When we remove sub-nodes of a decision node, this process is called pruning or opposite process of splitting.
+
+</details>
+
+
+<details><summary><b> What is Ensemble Learning ? </b></summary>
+
+ > Ensemble is the art of combining diverse set of learners(Individual models) together to improvise on the stability and predictive power of the model. Ensemble learning has many types but two more popular ensemble learning techniques are mentioned below.
+
+     Bagging
+
+    Bagging tries to implement similar learners on small sample populations and then takes a mean of all the predictions. In generalised bagging, you can use different learners on different population. As you expect this helps us to reduce the variance error.
+
+    Boosting
+
+    Boosting is an iterative technique which adjust the weight of an observation based on the last classification. If an observation was classified incorrectly, it tries to increase the weight of this observation and vice versa. Boosting in general decreases the bias error and builds strong predictive models. However, they may over fit on the training data.
+
+</details>
+
+
+<details><summary><b> What is Random Forest? How does it work ? </b></summary>
+
+ > Random forest is a versatile machine learning method capable of performing both regression and classification tasks. It is also used for dimentionality reduction, treats missing values, outlier values. It is a type of ensemble learning method, where a group of weak models combine to form a powerful model.
+
+> In Random Forest, we grow multiple trees as opposed to a single tree. To classify a new object based on attributes, each tree gives a classification. The forest chooses the classification having the most votes(Over all the trees in the forest) and in case of regression, it takes the average of outputs by different trees.
+
+</details>
+
+
+<details><summary><b> What cross-validation technique would you use on a time series data set.</b></summary>
+
+ > Instead of using k-fold cross-validation, you should be aware to the fact that a time series is not randomly distributed data — It is inherently ordered by chronological order.
+
+> In case of time series data, you should use techniques like forward chaining — Where you will be model on past data then look at forward-facing data.
+
+    fold 1: training[1], test[2]
+
+    fold 1: training[1 2], test[3]
+
+    fold 1: training[1 2 3], test[4]
+
+    fold 1: training[1 2 3 4], test[5]
+
+</details>
+
+
+<details><summary><b> What is logistic regression? Or State an example when you have used logistic regression recently. </b></summary>
+
+ > Logistic Regression often referred as logit model is a technique to predict the binary outcome from a linear combination of predictor variables. For example, if you want to predict whether a particular political leader will win the election or not. In this case, the outcome of prediction is binary i.e. 0 or 1 (Win/Lose). The predictor variables here would be the amount of money spent for election campaigning of a particular candidate, the amount of time spent in campaigning, etc.
+
+</details>
+
+<details><summary><b> What is a Box Cox Transformation? </b></summary>
+
+ > Dependent variable for a regression analysis might not satisfy one or more assumptions of an ordinary least squares regression. The residuals could either curve as the prediction increases or follow skewed distribution. In such scenarios, it is necessary to transform the response variable so that the data meets the required assumptions. A Box cox transformation is a statistical technique to transform non-normal dependent variables into a normal shape. If the given data is not normal then most of the statistical techniques assume normality. Applying a box cox transformation means that you can run a broader number of tests.
+
+</details>
+
+
+<details><summary><b> What is deep learning? </b></summary>
+
+ > Deep learning is sub field of machine learning inspired by structure and function of brain called artificial neural network. We have a lot numbers of algorithms under machine learning like Linear regression, SVM, Neural network etc and deep learning is just an extension of Neural networks. In neural nets we consider small number of hidden layers but when it comes to deep learning algorithms we consider a huge number of hidden layers to better understand the input output relationship.
+
+</details>
+
+
+<details><summary><b> What are Recurrent Neural Networks(RNNs) ? </b></summary>
+
+ > Recurrent nets are type of artificial neural networks designed to recognise pattern from the sequence of data such as Time series, stock market and government agencies etc. To understand recurrent nets, first you have to understand the basics of feed forward nets. Both these networks RNN and feed forward named after the way they channel information through a series of mathematical orations performed at the nodes of the network. One feeds information through straight(never touching same node twice), while the other cycles it through loop, and the latter are called recurrent.
+> Recurrent networks on the other hand, take as their input not just the current input example they see, but also the what they have perceived previously in time. The BTSXPE at the bottom of the drawing represents the input example in the current moment, and CONTEXT UNIT represents the output of the previous moment. The decision a recurrent neural network reached at time t-1 affects the decision that it will reach one moment later at time t. So recurrent networks have two sources of input, the present and the recent past, which combine to determine how they respond to new data, much as we do in life.
+
+> The error they generate will return via back propagation and be used to adjust their weights until error can’t go any lower. Remember, the purpose of recurrent nets is to accurately classify sequential input. We rely on the back propagation of error and gradient descent to do so.
+
+Back propagation in feed forward networks moves backward from the final error through the outputs, weights and inputs of each hidden layer, assigning those weights responsibility for a portion of the error by calculating their partial derivatives — ∂E/∂w, or the relationship between their rates of change. Those derivatives are then used by our learning rule, gradient descent, to adjust the weights up or down, whichever direction decreases error.
+
+Recurrent networks rely on an extension of back propagation called back propagation through time, or BPTT. Time, in this case, is simply expressed by a well-defined, ordered series of calculations linking one time step to the next, which is all back propagation needs to work.
 
 </details>
 
