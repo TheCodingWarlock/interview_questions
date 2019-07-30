@@ -558,6 +558,241 @@ Recurrent networks rely on an extension of back propagation called back propagat
 
 
 
+<details><summary><b> What is the difference between machine learning and deep learning? </b></summary>
+
+ > Machine learning:
+
+Machine learning is a field of computer science that gives computers the ability to learn without being explicitly programmed. Machine learning can be categorised in following three categories.
+
+    Supervised machine learning,
+    Unsupervised machine learning,
+    Reinforcement learning
+
+Deep learning:
+
+Deep Learning is a sub field of machine learning concerned with algorithms inspired by the structure and function of the brain called artificial neural networks.
+
+</details>
+
+<details><summary><b> What is reinforcement learning ? </b></summary>
+
+ > Reinforcement Learning is learning what to do and how to map situations to actions. The end result is to maximise the numerical reward signal. The learner is not told which action to take, but instead must discover which action will yield the maximum reward.Reinforcement learning is inspired by the learning of human beings, it is based on the reward/panelity mechanism.
+
+</details>
+
+
+<details><summary><b> What is selection bias ? </b></summary>
+
+ > Selection bias is the bias introduced by the selection of individuals, groups or data for analysis in such a way that proper randomisation is not achieved, thereby ensuring that the sample obtained is not representative of the population intended to be analysed. It is sometimes referred to as the selection effect. The phrase “selection bias” most often refers to the distortion of a statistical analysis, resulting from the method of collecting samples. If the selection bias is not taken into account, then some conclusions of the study may not be accurate.
+
+</details>
+
+
+<details><summary><b> Explain what regularisation is and why it is useful. </b></summary>
+
+ > Regularisation is the process of adding tunning parameter to a model to induce smoothness in order to prevent overfitting. This is most often done by adding a constant multiple to an existing weight vector. This constant is often the L1(Lasso) or L2(ridge). The model predictions should then minimize the loss function calculated on the regularized training set.
+
+</details>
+
+<details><summary><b> What is TF/IDF vectorization ? </b></summary>
+
+ > tf–idf is short for term frequency–inverse document frequency, is a numerical statistic that is intended to reflect how important a word is to a document in a collection or corpus. It is often used as a weighting factor in information retrieval and text mining. The tf-idf value increases proportionally to the number of times a word appears in the document, but is offset by the frequency of the word in the corpus, which helps to adjust for the fact that some words appear more frequently in general.
+
+</details>
+
+
+<details><summary><b> What is the difference between Regression and classification ML techniques.</b></summary>
+
+ > Both Regression and classification machine learning techniques come under Supervised machine learning algorithms. In Supervised machine learning algorithm, we have to train the model using labelled data set, While training we have to explicitly provide the correct labels and algorithm tries to learn the pattern from input to output. If our labels are discrete values then it will a classification problem, e.g A,B etc. but if our labels are continuous values then it will be a regression problem, e.g 1.23, 1.333 etc.
+
+</details>
+
+
+
+
+
+<details><summary><b> If you are having 4GB RAM in your machine and you want to train your model on 10GB data set. How would you go about this problem. Have you ever faced this kind of problem in your machine learning/data science experience so far ? </b></summary>
+
+ > First of all you have to ask which ML model you want to train.
+
+For Neural networks: Batch size with Numpy array will work.
+
+Steps:
+
+    Load the whole data in Numpy array. Numpy array has property to create mapping of complete data set, it doesn’t load complete data set in memory.
+    You can pass index to Numpy array to get required data.
+    Use this data to pass to Neural network.
+    Have small batch size.
+
+For SVM: Partial fit will work
+
+Steps:
+
+    Divide one big data set in small size data sets.
+    Use partial fit method of SVM, it requires subset of complete data set.
+    Repeat step 2 for other subsets.
+
+</details>
+
+
+
+<details><summary><b> What is p-value? </b></summary>
+
+ > When you perform a hypothesis test in statistics, a p-value can help you determine the strength of your results. p-value is a number between 0 and 1. Based on the value it will denote the strength of the results. The claim which is on trial is called Null Hypothesis.
+
+</details>
+
+
+
+<details><summary><b>What is ‘Naive’ in a Naive Bayes ? </b></summary>
+
+ > The Naive Bayes Algorithm is based on the Bayes Theorem. Bayes’ theorem describes the probability of an event, based on prior knowledge of conditions that might be related to the event.
+
+</details>
+
+
+
+
+<details><summary><b> </b></summary>
+
+ >
+
+</details>
+
+
+
+<details><summary><b> </b></summary>
+
+ >
+
+</details>
+
+
+
+<details><summary><b> </b></summary>
+
+ >
+
+</details>
+
+
+
+<details><summary><b> </b></summary>
+
+ >
+
+</details>
+
+
+<details><summary><b> </b></summary>
+
+ >
+
+</details>
+
+
+
+<details><summary><b> </b></summary>
+
+ >
+
+</details>
+
+
+
+<details><summary><b> </b></summary>
+
+ >
+
+</details>
+
+
+
+<details><summary><b> </b></summary>
+
+ >
+
+</details>
+
+
+<details><summary><b> </b></summary>
+
+ >
+
+</details>
+
+
+<details><summary><b> </b></summary>
+
+ >
+
+</details>
+
+
+<details><summary><b> </b></summary>
+
+ >
+
+</details>
+
+
+<details><summary><b> </b></summary>
+
+ >
+
+</details>
+
+<details><summary><b> </b></summary>
+
+ >
+
+</details>
+
+
+
+<details><summary><b> </b></summary>
+
+ >
+
+</details>
+
+
+
+<details><summary><b> </b></summary>
+
+ >
+
+</details>
+
+
+<details><summary><b> </b></summary>
+
+ >
+
+</details>
+
+
+<details><summary><b> </b></summary>
+
+ >
+
+</details>
+
+
+<details><summary><b> </b></summary>
+
+ >
+
+</details>
+
+
+<details><summary><b> </b></summary>
+
+ >
+
+</details>
+
+
 <details><summary><b> </b></summary>
 
  >
@@ -584,11 +819,29 @@ Recurrent networks rely on an extension of back propagation called back propagat
 
 </details>
 
+
+
 <details><summary><b> </b></summary>
 
  >
 
 </details>
+
+
+<details><summary><b> </b></summary>
+
+ >
+
+</details>
+
+
+
+<details><summary><b> </b></summary>
+
+ >
+
+</details>
+
 
 
 <details><summary><b> </b></summary>
