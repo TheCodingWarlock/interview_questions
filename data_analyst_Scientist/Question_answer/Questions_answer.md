@@ -5,6 +5,7 @@ Common Data Science questions curated from the internet.<br>
 Sources
 1. [edureka](https://www.edureka.co/blog/interview-questions/top-data-science-interview-questions-for-budding-data-scientists/)
 2. [Towards Data Science](https://towardsdatascience.com/top-30-data-science-interview-questions-7dd9a96d3f5c)
+3. [https://onlinetutorials.today](https://onlinetutorials.today/data-science/data-science-interview-questions-and-answers/)
 <br>
 
 <details><summary><b>What is Data Science? Also, list the differences between supervised and unsupervised learning. </b></summary>
@@ -651,6 +652,283 @@ Steps:
 </details>
 
 
+#### Statistics interview questions:
+
+<details><summary><b> What is Statistics ?</b></summary>
+
+ > It is a branch of mathematics pertaining to the collection, analysis, interpretation, and presentation of masses of numerical data.
+
+</details>
+
+
+
+<details><summary><b> How many Types of statistics are there ? </b></summary>
+
+ >  Descriptive Statistics
+ >  Inferential Statistics
+
+
+</details>
+
+
+
+<details><summary><b> What is Descriptive statistics ? </b></summary>
+
+ > It is help to organize data and focus on the main characteristic of the data and it’s also provides a summary of he data numerically and graphically. (mean, mode, standard deviation, correlation)
+
+</details>
+
+
+
+<details><summary><b> What is inferential statistics ? </b></summary>
+
+ > It generates the larger data and applies probability theory to draw a conclusion
+
+</details>
+
+
+<details><summary><b> What is mean value in statistics ? </b></summary>
+
+ > Mean is the average value of the data set.
+
+</details>
+
+
+
+<details><summary><b> What is Mode value in statistics ?  </b></summary>
+
+ > The Most repeated value in the data set
+
+</details>
+
+
+
+<details><summary><b> What is median value in statistics ?  </b></summary>
+
+ > The middle value from data set
+
+</details>
+
+
+
+<details><summary><b> What is Variance in statistics ?  </b></summary>
+
+ > Variance measures how far each number in the set is from the mean.
+
+</details>
+
+
+<details><summary><b> What is standard Deviation in statistics ? </b></summary>
+
+ > It is a square root of variance
+
+</details>
+
+
+<details><summary><b> How many types of variables are there in statistics ? </b></summary>
+
+ > 
+    Categorical variable
+    Confounding variable
+    Continuous variable
+    Control variable
+    Dependent variable
+    Discrete variable
+    Independent variable
+    Nominal variable
+    Ordinal variable
+    Qualitative variable
+    Quantitative variable
+    Random variables
+    Ratio variables
+    ranked variables
+
+
+</details>
+
+
+<details><summary><b> How many types of distributions are there ? </b></summary>
+
+ > 
+    Bernoulli Distribution
+    Uniform Distribution
+    Binomial Distribution
+    Normal Distribution
+    Poisson Distribution
+    Exponential Distribution
+
+
+</details>
+
+
+<details><summary><b> What is normal distribution ? </b></summary>
+
+ > A) It’s like a bell curve distribution. Mean, Mode and Medium are equal in this distribution. Most of the distributions in statistics are normal distribution.
+
+
+
+</details>
+
+<details><summary><b> What is standard normal distribution ?  </b></summary>
+
+ > If mean is 0 and standard deviation is 1 then we call that distribution as standard normal distribution.
+
+</details>
+
+
+
+<details><summary><b> What is Binominal Distribution ? </b></summary>
+
+ > A distribution where only two outcomes are possible, such as success or failure and where the probability of success and failure is same for all the trials then it is called a Binomial Distribution
+
+</details>
+
+
+
+<details><summary><b> What is Bernoulli distribution ? </b></summary>
+
+ > A Bernoulli distribution has only two possible outcomes, namely 1 (success) and 0 (failure), and a single trial.
+
+</details>
+
+
+<details><summary><b> What is Poisson distribution ? </b></summary>
+
+ > A distribution is called Poisson distribution when the following assumptions are true:
+
+1. Any successful event should not influence the outcome of another successful event.
+2. The probability of success over a short interval must equal the probability of success over a longer interval.
+3. The probability of success in an interval approaches zero as the interval becomes smaller.
+
+</details>
+
+
+<details><summary><b> What is central limit theorem ? </b></summary>
+
+> a) Mean of sample means is closely to the mean of the population
+
+> b) Standard deviation of the sample distribution can be found out from the population standard deviation divided by square root of sample size N and it is also known as standard error of means.
+
+> c) if the population is not normal distribution, but the sample size is greater than 30 the sampling distribution of sample means approximates a normal distribution
+
+</details>
+
+
+<details><summary><b>What is P Value, How it’s useful ? </b></summary>
+
+ > The p-value is the level of marginal significance within a statistical hypothesis test representing the probability of the occurrence of a given event.
+
+    If The p-value is  less than 0.05 (p<=0.05), It indicates strong evidence against the null hypothesis, you can reject the Null Hypothesis
+    If the P-value is higher than 0.05 (p>0.05), It indicates weak evidence against the null hypothesis, you can fail to reject the null Hypothesis
+
+
+</details>
+
+
+<details><summary><b> What is Z value or Z score (Standard Score)  , How it’s useful ? </b></summary>
+
+ > Z score indicates how many standard deviations on element is from the mean. It is also called standard score.
+
+Z score Formula
+
+z = (X – μ) / σ
+
+    It is useful in Statistical testing.
+    Z-value is range between -3 to 3.
+    Its useful to find the outliers in large data
+
+
+</details>
+
+
+<details><summary><b>What is T-Score, What is the use of it ? </b></summary>
+
+ > 
+    It  is a ratio between the difference between two groups and the difference within the groups. The larger t score, the more difference there is between groups. The smaller t-score means the more similarity between groups.
+    We can use t-score when the sample size is less than 30, It is used in statistical testing
+
+
+</details>
+
+<details><summary><b>What is IQR ( Interquartile Range ) and Usage ? </b></summary>
+
+ > 
+    It is difference between 75th and 25th percentiles, or between upper and lower quartiles,
+    It is also called Misspread data or Middle 50%.
+    Mainly to find outliers in data, if the observations that fall below Q1 − 1.5 IQR or above Q3 + 1.5 IQR those are considered as outliers.
+
+
+</details>
+
+
+<details><summary><b> What is Hypothesis Testing ?</b></summary>
+
+ > Hypothesis testing is a statistical method that is used in making statistical decisions using experimental data. Hypothesis Testing is basically an assumption that we make about the population parameter.
+
+</details>
+
+
+<details><summary><b>How many Types of Hypothesis Testing are there ? </b></summary>
+
+ > Null Hypothesis, Alternative Hypothesis
+
+</details>
+
+
+
+<details><summary><b> What is Type 1 Error ? </b></summary>
+
+ > FP – False Positive ( In statistics it is the rejection of a true null hypothesis)
+
+</details>
+
+
+<details><summary><b> What is Type 2 Error ?  </b></summary>
+
+ > FN – False Negative  ( In statistics it is failing to reject a false null hypothesis)
+
+</details>
+
+
+
+<details><summary><b> What is population ? </b></summary>
+
+ > It is a discrete group of people, animals or things that can be identified by at least one common characteristic for the purposes of data collection and analysis
+
+</details>
+
+
+
+<details><summary><b> What is sampling ?</b></summary>
+
+ >
+
+</details>
+
+
+
+<details><summary><b> </b></summary>
+
+ >
+
+</details>
+
+
+
+<details><summary><b> </b></summary>
+
+ >
+
+</details>
+
+
+
+<details><summary><b> </b></summary>
+
+ >
+
+</details>
+
 
 
 <details><summary><b> </b></summary>
@@ -692,13 +970,6 @@ Steps:
 
 
 
-<details><summary><b> </b></summary>
-
- >
-
-</details>
-
-
 
 <details><summary><b> </b></summary>
 
@@ -715,11 +986,6 @@ Steps:
 </details>
 
 
-<details><summary><b> </b></summary>
-
- >
-
-</details>
 
 
 <details><summary><b> </b></summary>
@@ -736,11 +1002,6 @@ Steps:
 </details>
 
 
-<details><summary><b> </b></summary>
-
- >
-
-</details>
 
 <details><summary><b> </b></summary>
 
@@ -793,6 +1054,148 @@ Steps:
 </details>
 
 
+
+<details><summary><b> </b></summary>
+
+ >
+
+</details>
+
+
+
+<details><summary><b> </b></summary>
+
+ >
+
+</details>
+
+
+
+<details><summary><b> </b></summary>
+
+ >
+
+</details>
+
+
+
+
+
+<details><summary><b> </b></summary>
+
+ >
+
+</details>
+
+
+
+<details><summary><b> </b></summary>
+
+ >
+
+</details>
+
+
+<details><summary><b> </b></summary>
+
+ >
+
+</details>
+
+
+
+<details><summary><b> </b></summary>
+
+ >
+
+</details>
+
+
+
+<details><summary><b> </b></summary>
+
+ >
+
+</details>
+
+
+
+<details><summary><b> </b></summary>
+
+ >
+
+</details>
+
+
+
+<details><summary><b> </b></summary>
+
+ >
+
+</details>
+
+
+<details><summary><b> </b></summary>
+
+ >
+
+</details>
+
+
+<details><summary><b> </b></summary>
+
+ >
+
+</details>
+
+
+<details><summary><b> </b></summary>
+
+ >
+
+</details>
+
+
+<details><summary><b> </b></summary>
+
+ >
+
+</details>
+
+
+<details><summary><b> </b></summary>
+
+ >
+
+</details>
+
+
+<details><summary><b> </b></summary>
+
+ >
+
+</details>
+
+<details><summary><b> </b></summary>
+
+ >
+
+</details>
+
+<details><summary><b> </b></summary>
+
+ >
+
+</details>
+
+
+<details><summary><b> </b></summary>
+
+ >
+
+</details>
+
+
 <details><summary><b> </b></summary>
 
  >
@@ -820,6 +1223,67 @@ Steps:
 </details>
 
 
+<details><summary><b> </b></summary>
+
+ >
+
+</details>
+
+
+<details><summary><b> </b></summary>
+
+ >
+
+</details>
+
+<details><summary><b> </b></summary>
+
+ >
+
+</details>
+
+<details><summary><b> </b></summary>
+
+ >
+
+</details>
+
+<details><summary><b> </b></summary>
+
+ >
+
+</details>
+
+<details><summary><b> </b></summary>
+
+ >
+
+</details>
+
+<details><summary><b> </b></summary>
+
+ >
+
+</details>
+v
+
+<details><summary><b> </b></summary>
+
+ >
+
+</details>
+
+<details><summary><b> </b></summary>
+
+ >
+
+</details>
+
+<details><summary><b> </b></summary>
+
+ >
+
+</details>
 
 <details><summary><b> </b></summary>
 
@@ -835,6 +1299,11 @@ Steps:
 </details>
 
 
+<details><summary><b> </b></summary>
+
+ >
+
+</details>
 
 <details><summary><b> </b></summary>
 
@@ -843,6 +1312,89 @@ Steps:
 </details>
 
 
+<details><summary><b> </b></summary>
+
+ >
+
+</details>
+
+
+<details><summary><b> </b></summary>
+
+ >
+
+</details>
+
+
+<details><summary><b> </b></summary>
+
+ >
+
+</details>
+
+
+<details><summary><b> </b></summary>
+
+ >
+
+</details>
+
+
+<details><summary><b> </b></summary>
+
+ >
+
+</details>
+
+
+<details><summary><b> </b></summary>
+
+ >
+
+</details>
+
+
+<details><summary><b> </b></summary>
+
+ >
+
+</details>
+
+<details><summary><b> </b></summary>
+
+ >
+
+</details>
+
+<details><summary><b> </b></summary>
+
+ >
+
+</details>
+
+<details><summary><b> </b></summary>
+
+ >
+
+</details>
+<details><summary><b> </b></summary>
+
+ >
+
+</details>
+
+<details><summary><b> </b></summary>
+
+ >
+
+</details>
+
+
+<details><summary><b> </b></summary>
+
+ >
+
+</details>
 
 <details><summary><b> </b></summary>
 
