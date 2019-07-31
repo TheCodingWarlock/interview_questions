@@ -901,79 +901,98 @@ z = (X – μ) / σ
 
 <details><summary><b> What is sampling ?</b></summary>
 
- >
+ > Sampling is a process used in statistical analysis in which a predetermined number of observations are taken from a larger population.
 
 </details>
 
 
 
-<details><summary><b> </b></summary>
+<details><summary><b> Types of sampling techniques ? </b></summary>
 
- >
+ There are two major types of sampling
+1. PROBABILITY SAMPLING
+
+    Simple Random Sampling
+    Stratified Random Sampling
+    Systematic Sampling
+    Cluster Sampling
+    Multi-stage Sampling
+
+2. NON-PROBABILITY SAMPLING
+
+    Purposive Sampling
+    Convenience Sampling
+    Snow-ball Sampling
+    Quota Sampling
+
 
 </details>
 
 
 
-<details><summary><b> </b></summary>
+<details><summary><b> What is Sample Bias ?  </b></summary>
 
- >
-
-</details>
-
-
-
-<details><summary><b> </b></summary>
-
- >
+ > It is a type of bias caused by choosing non-random data for statistical analysis
 
 </details>
 
 
 
-<details><summary><b> </b></summary>
+<details><summary><b> What is Selection Bias ?  </b></summary>
 
- >
-
-</details>
-
-
-
-<details><summary><b> </b></summary>
-
- >
+ > Selection bias is usually introduced as an error with the sampling and having a selection for analysis that is not properly randomized
 
 </details>
 
 
 
-<details><summary><b> </b></summary>
+<details><summary><b> What is Univariate, Bivariate, Multi Variate Analysis ? </b></summary>
 
- >
+> Univarite means single variable – Analysis on single variable data
 
-</details>
+> Bivariate means two variables – you can do analysis on multiple variables
 
-
-
-<details><summary><b> </b></summary>
-
- >
-
-</details>
-
-
-<details><summary><b> </b></summary>
-
- >
+> Mutli Variate means multiple variables – Analysis on multiple variables
 
 </details>
 
 
 
+<details><summary><b> What is data science ? </b></summary>
 
-<details><summary><b> </b></summary>
+ > Data science is the study of where information comes from, what it represents and how it can be turned into a valuable resource in the creation of business and IT strategies. Mining large amounts of structured and unstructured data to identify patterns can help an organization rein in costs, increase efficiencies, recognize new market opportunities and increase the organization’s competitive advantage.
 
- >
+</details>
+
+
+
+<details><summary><b> What is Machine learning ? </b></summary>
+
+ > Machine learning is the scientific study of algorithms and statistical models that computer systems use to progressively improve their performance on a specific task
+
+</details>
+
+
+
+<details><summary><b>What is Deep learning ? </b></summary>
+
+ > Deep Learning is a subfield of machine learning concerned with algorithms inspired by the structure and function of the brain called artificial neural networks.
+
+</details>
+
+
+<details><summary><b> What is Supervised learning ? </b></summary>
+
+ > The data is labeled.  And the algorithms learn from data to predict the output. Then we call it as supervised learning.
+
+</details>
+
+
+
+
+<details><summary><b> What is Unsupervised learning ? </b></summary>
+
+ > Unsupervised learning is a branch of machine learning that learns from test data that has not been labeled, classified or categorized.
 
 </details>
 
