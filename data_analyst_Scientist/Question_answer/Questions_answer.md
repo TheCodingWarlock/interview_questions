@@ -1121,67 +1121,75 @@ z = (X – μ) / σ
 
 
 
-<details><summary><b> </b></summary>
+<details><summary><b> What is Standardization and normalization ? </b></summary>
+
+ > Converting variables from different ranges to same scale
+
+</details>
+
+
+<details><summary><b> How to deal with Missing Values In Data ?</b></summary>
+
+ > It’s depends on type of data, you can fill with mean or median values, if the missing data is very less you can remove.
+
+</details>
+
+
+
+<details><summary><b> How to find outliers in data ? </b></summary>
+
+ > You can find outliers in data by using box plot graphs, If the data is large, we can z values range from -3 to 3, We can also find using IQR -1.5 to 1.5.
+
+</details>
+
+
+
+<details><summary><b> How many types of Regression algorithms are there ? </b></summary>
+
+ > 
+    Linear Regression
+    Logistic Regression
+    Polynomial Regression
+    Stepwise Regression
+    Ridge Regression
+    Lasso Regression
+    ElasticNet Regression
+
+
+</details>
+
+
+
+<details><summary><b> What is Linear Regression, How it works, When to Use ? </b></summary>
 
  >
 
 </details>
 
 
-<details><summary><b> </b></summary>
+
+<details><summary><b>What is Logistic Regression, How it works, When to Use ? </b></summary>
 
  >
 
 </details>
 
 
-
-<details><summary><b> </b></summary>
-
- >
-
-</details>
-
-
-
-<details><summary><b> </b></summary>
+<details><summary><b>What is Support vector machine, How it works, When to Use ? </b></summary>
 
  >
 
 </details>
 
 
-
-<details><summary><b> </b></summary>
-
- >
-
-</details>
-
-
-
-<details><summary><b> </b></summary>
+<details><summary><b>What is SVR ( Support vector Regressor ) ? </b></summary>
 
  >
 
 </details>
 
 
-<details><summary><b> </b></summary>
-
- >
-
-</details>
-
-
-<details><summary><b> </b></summary>
-
- >
-
-</details>
-
-
-<details><summary><b> </b></summary>
+<details><summary><b> What is SVC ( Support Vector Classification ) ? </b></summary>
 
  >
 
