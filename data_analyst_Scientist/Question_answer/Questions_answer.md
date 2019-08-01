@@ -1009,90 +1009,103 @@ z = (X – μ) / σ
 
 <details><summary><b> What is Transfer learning ? </b></summary>
 
- >
+ > Transfer learning make use of the knowledge gained while solving one problem and applying it to a different but related problem.
 
 </details>
 
 
-<details><summary><b> </b></summary>
+<details><summary><b>What is Regression ? </b></summary>
 
- >
-
-</details>
-
-
-
-<details><summary><b> </b></summary>
-
- >
+ > In Statistics, a measure of the relation between the mean value of one variable (e.g. output) and corresponding values of other variables
 
 </details>
 
 
 
-<details><summary><b> </b></summary>
+<details><summary><b> What is Classification ? </b></summary>
 
- >
-
-</details>
-
-
-
-<details><summary><b> </b></summary>
-
- >
-
-</details>
-
-
-<details><summary><b> </b></summary>
-
- >
-
-</details>
-
-
-<details><summary><b> </b></summary>
-
- >
-
-</details>
-
-
-<details><summary><b> </b></summary>
-
- >
-
-</details>
-
-
-<details><summary><b> </b></summary>
-
- >
+ > In machine learning and statistics, classification is the problem of identifying to which of a set of categories a new observation belongs, on the basis of a training set of data containing observations whose category membership is known
 
 </details>
 
 
 
-<details><summary><b> </b></summary>
+<details><summary><b> What is Clustering ?</b></summary>
 
- >
-
-</details>
-
-
-
-<details><summary><b> </b></summary>
-
- >
+ > Cluster analysis or clustering is the task of grouping a set of objects in such a way that objects in the same group are more similar to each other than to those in other groups
 
 </details>
 
 
 
-<details><summary><b> </b></summary>
+<details><summary><b> What is Bias ?  </b></summary>
 
- >
+ > Bias is the difference between the average prediction of our model and the correct value which we are trying to predict.
+
+</details>
+
+
+<details><summary><b> What is Variance. ? </b></summary>
+
+ > Variance is the variability of model prediction for a given data point or a value which tells us spread of our data.
+
+</details>
+
+
+<details><summary><b> What is EDA ? </b></summary>
+
+ > Exploratory data analysis : In statistics, exploratory data analysis is an approach to analyzing data sets to summarize their main characteristics, often with visual methods. A statistical model can be used or not, but primarily EDA is for seeing what the data can tell us beyond the formal modeling or hypothesis testing task.
+
+</details>
+
+
+<details><summary><b> What is Overfitting, Underfitting and Trade-off ? </b></summary>
+
+ > Overfitting – The model works fine on training data not performing well on test data.
+
+> Underfitting- The model not able to understand patters in data
+
+> Trade-off – We need to balance bias and variance
+
+</details>
+
+
+<details><summary><b> What are steps in Building a Machine learning Model ? </b></summary>
+
+ > 
+    Problem Statement
+    Gathering Data
+    Data Preparation
+    EDA
+    Model Training
+    Validation
+    Performance Tuning
+    Model Deployment
+
+
+</details>
+
+
+
+<details><summary><b> What is Data Pre-processing ?</b></summary>
+
+ > Data preprocessing is an important step in the data mining process. The phrase “garbage in, garbage out” is particularly applicable to data mining and machine learning projects. Data-gathering methods are often loosely controlled, resulting in out-of-range values, impossible data combinations, missing values, etc
+
+</details>
+
+
+
+<details><summary><b> What is Data Cleaning ? </b></summary>
+
+ > Data cleansing or data cleaning is the process of detecting and correcting corrupt or inaccurate records from a record set, table, or database and refers to identifying incomplete, incorrect, inaccurate or irrelevant parts of the data and then replacing, modifying, or deleting the dirty or coarse data.
+
+</details>
+
+
+
+<details><summary><b> What is Data Preparation ?</b></summary>
+
+ > Data preparation is the process of cleaning and transforming raw data prior to processing and analysis. It is an important step prior to processing and often involves reformatting data, making corrections to data and the combining of data sets to enrich data.
 
 </details>
 
@@ -1100,9 +1113,9 @@ z = (X – μ) / σ
 
 
 
-<details><summary><b> </b></summary>
+<details><summary><b> What is Data munging ?</b></summary>
 
- >
+ > Data Munging is basically the hip term for cleaning up a messy data set.
 
 </details>
 
