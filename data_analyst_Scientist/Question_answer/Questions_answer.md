@@ -1196,165 +1196,184 @@ z = (X – μ) / σ
 </details>
 
 
-<details><summary><b> </b></summary>
+<details><summary><b> What is KNN( K nearest neighbour algorithm ) ? </b></summary>
+
+ > Knn is a supervised learning algorithm,
+
+</details>
+
+
+<details><summary><b> How to choose k value in KNN ? </b></summary>
+
+ > sqrt(n) :  n is the number of samples
+
+</details>
+
+
+<details><summary><b> What is Ecludien distance ? </b></summary>
+
+ >
+
+</details>
+
+<details><summary><b>What is Naive bayes algorithm ? How it works ? </b></summary>
+
+ >
+
+</details>
+
+<details><summary><b> What is ensemble learning? </b></summary>
 
  >
 
 </details>
 
 
-<details><summary><b> </b></summary>
+<details><summary><b> What is Decision Tree algorithm ? How the tree will split ?</b></summary>
 
  >
 
 </details>
 
 
-<details><summary><b> </b></summary>
+<details><summary><b> What is Random Forest algorithm ? How to pick no of trees ?</b></summary>
 
  >
 
 </details>
 
-<details><summary><b> </b></summary>
-
- >
-
-</details>
-
-<details><summary><b> </b></summary>
+<details><summary><b>What is Bagging ? </b></summary>
 
  >
 
 </details>
 
 
-<details><summary><b> </b></summary>
+<details><summary><b> What is Boosting ? </b></summary>
 
  >
 
 </details>
 
 
-<details><summary><b> </b></summary>
+<details><summary><b> How many Types of boosting algorithms are there ? </b></summary>
 
  >
 
-</details>
+    AdaBoost
+    Gradient Boosting
+    XGBoost
+    LogitBoost
+    LPBoost
+    TotalBoost
+    BrownBoost
+    MadaBoost
+    etc
 
-<details><summary><b> </b></summary>
-
- >
-
-</details>
-
-
-<details><summary><b> </b></summary>
-
- >
-
-</details>
-
-
-<details><summary><b> </b></summary>
-
- >
 
 </details>
 
 
-<details><summary><b> </b></summary>
+<details><summary><b> What is xgboost algorithm ?</b></summary>
 
  >
 
 </details>
 
 
-<details><summary><b> </b></summary>
+<details><summary><b>What is Adaboost Algorithm ? </b></summary>
 
  >
 
 </details>
 
-<details><summary><b> </b></summary>
+<details><summary><b> What is Gradient Boosting algorithm ? </b></summary>
 
  >
 
 </details>
 
-<details><summary><b> </b></summary>
+<details><summary><b>How Gradient Boosting helps to optimize the cost function. </b></summary>
 
  >
 
 </details>
 
-<details><summary><b> </b></summary>
+<details><summary><b>What is Time series ? </b></summary>
 
  >
 
 </details>
 
-<details><summary><b> </b></summary>
+<details><summary><b> How many types of algorithms in time series ? </b></summary>
 
  >
 
 </details>
 
-<details><summary><b> </b></summary>
+<details><summary><b> What is ARIMA Model(Auto regressive and Moving average ) ? </b></summary>
 
  >
 
 </details>
 v
 
-<details><summary><b> </b></summary>
+<details><summary><b> What is Customer segmentation ? How can do it with Machine learning ?</b></summary>
 
  >
 
 </details>
 
-<details><summary><b> </b></summary>
+<details><summary><b> What is K- Means ? </b></summary>
 
- >
-
-</details>
-
-<details><summary><b> </b></summary>
-
- >
+ > K means Clustering is unsupervised algorithm to determine the best possible clusters from the data.  The goal of the algorithm to find groups with in data.
 
 </details>
 
-<details><summary><b> </b></summary>
+<details><summary><b> How choose K value in Kmeans algorithm ?</b></summary>
 
- >
+ > We can use the elbow method to determine the optimal number of clusters( Kvalue)
+
+
+
+</details>
+
+<details><summary><b> How many types of clustering techniques are there ? </b></summary>
+
+ > 
+    Partitioning methods.
+    Hierarchical clustering.
+    Fuzzy clustering.
+    Density-based clustering.
+    Model-based clustering.
+
 
 </details>
 
 
-<details><summary><b> </b></summary>
-
- >
-
-</details>
-
-
-<details><summary><b> </b></summary>
-
- >
-
-</details>
-
-<details><summary><b> </b></summary>
+<details><summary><b>What is Hierarchical clustering ?  </b></summary>
 
  >
 
 </details>
 
 
-<details><summary><b> </b></summary>
+<details><summary><b>What is Dimentionality Reduction ? How it works ?  </b></summary>
 
  >
+
+</details>
+
+<details><summary><b> How many types dimentionality reduction techniques ? </b></summary>
+
+ >
+
+</details>
+
+
+<details><summary><b> What is PCA ? ( Principal component analysis ) </b></summary>
+
+ > Principal component analysis is a statistical procedure that uses an orthogonal transformation to convert a set of observations of possibly correlated variables into a set of values of linearly uncorrelated variables called principal components. It’s mainly used to reduce dimentionality of data set.
 
 </details>
 
