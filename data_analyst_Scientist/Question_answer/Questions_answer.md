@@ -1378,6 +1378,232 @@ v
 </details>
 
 
+<details><summary><b> What type of metrics in Regression ? </b></summary>
+
+ >RMSE – Root Mean square error
+
+> MSE – Mean square error
+
+> MAE – Mean absolute Error
+
+> R2 score
+
+</details>
+
+
+<details><summary><b>How to improve the model accuracy ? </b></summary>
+
+ > By using Feature selection, Dimensionality reduction, Ensemble methods(bagging and boosting algorithms) and Hyper parameter tuning.
+
+</details>
+
+
+<details><summary><b> How many types of loss function or cost function in machine learning ?  </b></summary>
+
+ > Classification:
+
+    log loss
+    focal loss
+    KL Divergence/Relative entropy
+    Exponential loss
+    Hinge Loss
+
+> Regression:
+
+    mean square error
+    mean absolute error
+    huber loss/ smooth mean absolute error
+    log cosh loss
+    quantile loss
+
+
+</details>
+
+
+<details><summary><b> Which one you prefer model performance an model accuracy while building model ?</b></summary>
+
+ > I can use model performance, model accuracy is the subset of model performance.
+
+</details>
+
+
+<details><summary><b> What is Mean square error , formula and criteria ?</b></summary>
+
+ >
+
+</details>
+
+
+<details><summary><b>What is Root Mean Square error ? </b></summary>
+
+ >
+
+</details>
+
+<details><summary><b> What is  R2 score. ?</b></summary>
+
+ >
+
+</details>
+
+<details><summary><b>What type of metrics in Classification ? </b></summary>
+
+ >
+    Confusion Matrix = ((TP + FN)/(FP + TN))
+    Accuracy score = (TP+TN)/TP+TN+FP+FN
+    Recall , True positive rate, – ( TP/TP+FN)
+    Precision – (TP/TP+TN)
+    F1score = 2(precision*recall)/precision+recall
+
+
+</details>
+
+<details><summary><b> How can you overcome from overfitting ?</b></summary>
+
+ >
+
+</details>
+<details><summary><b> How can you overcome from underfitting ?</b></summary>
+
+ >
+
+</details>
+
+<details><summary><b>What is Meant by normalization ? </b></summary>
+
+ >
+
+</details>
+
+
+<details><summary><b>What is meant by dummy variables ? </b></summary>
+
+ >
+
+</details>
+
+<details><summary><b>What is Regularization ? </b></summary>
+
+ >
+
+</details>
+
+
+
+<details><summary><b>What is Different L1 Regularization and L2 Regularization ? </b></summary>
+
+ >
+
+</details>
+<details><summary><b>How can you deal with different types of seasonality in time series modelling ? </b></summary>
+
+ >
+
+</details>
+
+<details><summary><b>What is Multicollinerity ? </b></summary>
+
+ >
+
+</details>
+
+<details><summary><b> What is ROC Curve ?</b></summary>
+
+ >
+
+</details>
+
+<details><summary><b>What is Sigmod Function ? </b></summary>
+
+ >
+
+</details>
+
+<details><summary><b> Which one i have to learn for Data science Python or R programming language ?</b></summary>
+
+ >
+
+</details>
+
+<details><summary><b>What is Data visualization with different Charts in Python ? </b></summary>
+
+ 1. Histogram,
+
+2. Bar plots
+
+3. Linegraph
+
+4. Pie Chart
+
+5. Scatter Plot
+
+6. Box plots
+
+</details>
+
+<details><summary><b>What is best programming libraries of machine learning. </b></summary>
+
+ > R, Python, numpy, scikitlearn, pandas, Scikit Learn, Tensorflow, Keras, Pytorch, Matplotlib, Seaborn
+
+</details>
+
+
+<details><summary><b> </b></summary>
+
+ >
+
+</details>
+
+
+<details><summary><b> </b></summary>
+
+ >
+
+</details>
+
+
+<details><summary><b> </b></summary>
+
+ >
+
+</details>
+
+
+<details><summary><b> </b></summary>
+
+ >
+
+</details>
+
+
+<details><summary><b> </b></summary>
+
+ >
+
+</details>
+
+
+<details><summary><b> </b></summary>
+
+ >
+
+</details>
+
+<details><summary><b> </b></summary>
+
+ >
+
+</details>
+
+
+<details><summary><b> </b></summary>
+
+ >
+
+</details>
+
+
+
 <details><summary><b> </b></summary>
 
  >
@@ -1436,6 +1662,338 @@ v
  >
 
 </details>
+
+<details><summary><b> </b></summary>
+
+ >
+
+</details>
+
+
+<details><summary><b> </b></summary>
+
+ >
+
+</details>
+
+
+<details><summary><b> </b></summary>
+
+ >
+
+</details>
+
+
+
+<details><summary><b> </b></summary>
+
+ >
+
+</details>
+
+
+<details><summary><b> </b></summary>
+
+ >
+
+</details>
+
+
+<details><summary><b> </b></summary>
+
+ >
+
+</details>
+
+
+
+<details><summary><b> </b></summary>
+
+ >
+
+</details>
+
+
+<details><summary><b> </b></summary>
+
+ >
+
+</details>
+
+
+
+<details><summary><b> </b></summary>
+
+ >
+
+</details>
+
+
+
+<details><summary><b> </b></summary>
+
+ >
+
+</details>
+
+
+
+<details><summary><b> </b></summary>
+
+ >
+
+</details>
+
+
+<details><summary><b> </b></summary>
+
+ >
+
+</details>
+
+<details><summary><b> </b></summary>
+
+ >
+
+</details>
+
+<details><summary><b> </b></summary>
+
+ >
+
+</details>
+
+<details><summary><b> </b></summary>
+
+ >
+
+</details>
+
+<details><summary><b> </b></summary>
+
+ >
+
+</details>
+<details><summary><b> </b></summary>
+
+ >
+
+</details>
+<details><summary><b> </b></summary>
+
+ >
+
+</details>
+
+<details><summary><b> </b></summary>
+
+ >
+
+</details>
+
+<details><summary><b> </b></summary>
+
+ >
+
+</details>
+
+<details><summary><b> </b></summary>
+
+ >
+
+</details>
+
+<details><summary><b> </b></summary>
+
+ >
+
+</details>
+
+
+
+<details><summary><b> </b></summary>
+
+ >
+
+</details>
+
+<details><summary><b> </b></summary>
+
+ >
+
+</details>
+<details><summary><b> </b></summary>
+
+ >
+
+</details>
+
+<details><summary><b> </b></summary>
+
+ >
+
+</details>
+
+<details><summary><b> </b></summary>
+
+ >
+
+</details>
+
+
+<details><summary><b> </b></summary>
+
+ >
+
+</details>
+
+<details><summary><b> </b></summary>
+
+ >
+
+</details>
+
+
+<details><summary><b> </b></summary>
+
+ >
+
+</details>
+
+
+
+<details><summary><b> </b></summary>
+
+ >
+
+</details>
+
+
+<details><summary><b> </b></summary>
+
+ >
+
+</details>
+
+
+<details><summary><b> </b></summary>
+
+ >
+
+</details>
+
+<details><summary><b> </b></summary>
+
+ >
+
+</details>
+
+
+<details><summary><b> </b></summary>
+
+ >
+
+</details>
+
+
+<details><summary><b> </b></summary>
+
+ >
+
+</details>
+
+
+<details><summary><b> </b></summary>
+
+ >
+
+</details>
+
+
+<details><summary><b> </b></summary>
+
+ >
+
+</details>
+
+
+<details><summary><b> </b></summary>
+
+ >
+
+</details>
+
+
+<details><summary><b> </b></summary>
+
+ >
+
+</details>
+
+
+
+<details><summary><b> </b></summary>
+
+ >
+
+</details>
+
+
+<details><summary><b> </b></summary>
+
+ >
+
+</details>
+
+
+<details><summary><b> </b></summary>
+
+ >
+
+</details>
+
+
+
+<details><summary><b> </b></summary>
+
+ >
+
+</details>
+
+
+<details><summary><b> </b></summary>
+
+ >
+
+</details>
+
+<details><summary><b> </b></summary>
+
+ >
+
+</details>
+
+
+<details><summary><b> </b></summary>
+
+ >
+
+</details>
+
+
+<details><summary><b> </b></summary>
+
+ >
+
+</details>
+
+
+<details><summary><b> </b></summary>
+
+ >
+
+</details>
+
 <details><summary><b> </b></summary>
 
  >
