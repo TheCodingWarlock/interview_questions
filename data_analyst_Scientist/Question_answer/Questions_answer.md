@@ -1163,7 +1163,14 @@ z = (X – μ) / σ
 
 <details><summary><b> What is Linear Regression, How it works, When to Use ? </b></summary>
 
- >
+ > Linear Regression can be considered a Machine Learning algorithm that allows us to map numeric inputs to numeric outputs, fitting a line into the data points.
+
+> In other words, Linear Regression is a way of modelling the relationship between one or more variables. From the Machine Learning perspective, this is done to ensure generalization — giving the model the ability to predict outputs for inputs it has never seen before.
+
+> Linear regression has many practical uses. Most applications fall into one of the following two broad categories:
+
+    If the goal is prediction, or forecasting, or error reduction,[clarification needed] linear regression can be used to fit a predictive model to an observed data set of values of the response and explanatory variables. After developing such a model, if additional values of the explanatory variables are collected without an accompanying response value, the fitted model can be used to make a prediction of the response.
+    If the goal is to explain variation in the response variable that can be attributed to variation in the explanatory variables, linear regression analysis can be applied to quantify the strength of the relationship between the response and the explanatory variables, and in particular to determine whether some explanatory variables may have no linear relationship with the response at all, or to identify which subsets of explanatory variables may contain redundant information about the response.
 
 </details>
 
@@ -1171,21 +1178,24 @@ z = (X – μ) / σ
 
 <details><summary><b>What is Logistic Regression, How it works, When to Use ? </b></summary>
 
- >
+ > Logistic regression is a statistical model that in its basic form uses a logistic function to model a binary dependent variable, although many more complex extensions exist
+ > Logistic Regression is used when the dependent variable(target) is categorical.
 
 </details>
 
 
 <details><summary><b>What is Support vector machine, How it works, When to Use ? </b></summary>
 
- >
+ > In machine learning, support-vector machines (SVMs, also support-vector networks[1]) are supervised learning models with associated learning algorithms that analyze data used for classification and regression analysis. Given a set of training examples, each marked as belonging to one or the other of two categories, an SVM training algorithm builds a model that assigns new examples to one category or the other, making it a non-probabilistic binary linear classifier (although methods such as Platt scaling exist to use SVM in a probabilistic classification setting). An SVM model is a representation of the examples as points in space, mapped so that the examples of the separate categories are divided by a clear gap that is as wide as possible. New examples are then mapped into that same space and predicted to belong to a category based on the side of the gap on which they fall. 
+
+ > The objective of the support vector machine algorithm is to find a hyperplane in an N-dimensional space(N — the number of features) that distinctly classifies the data points.
 
 </details>
 
 
 <details><summary><b>What is SVR ( Support vector Regressor ) ? </b></summary>
 
- >
+ > [read more](https://medium.com/coinmonks/support-vector-regression-or-svr-8eb3acf6d0ff)
 
 </details>
 
@@ -1213,13 +1223,13 @@ z = (X – μ) / σ
 
 <details><summary><b> What is Ecludien distance ? </b></summary>
 
- >
+ > In mathematics, the Euclidean distance or Euclidean metric is the "ordinary" straight-line distance between two points in Euclidean space.
 
 </details>
 
 <details><summary><b>What is Naive bayes algorithm ? How it works ? </b></summary>
 
- >
+ > Naive Bayes is a simple technique for constructing classifiers: models that assign class labels to problem instances, represented as vectors of feature values, where the class labels are drawn from some finite set. There is not a single algorithm for training such classifiers, but a family of algorithms based on a common principle: all naive Bayes classifiers assume that the value of a particular feature is independent of the value of any other feature, given the class variable. For example, a fruit may be considered to be an apple if it is red, round, and about 10 cm in diameter. A naive Bayes classifier considers each of these features to contribute independently to the probability that this fruit is an apple, regardless of any possible correlations between the color, roundness, and diameter features. 
 
 </details>
 
