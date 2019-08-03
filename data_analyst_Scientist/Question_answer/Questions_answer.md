@@ -1548,136 +1548,65 @@ v
 </details>
 
 
-<details><summary><b> </b></summary>
+<details><summary><b> What is the current version of python ?</b></summary>
 
  >
 
 </details>
 
 
-<details><summary><b> </b></summary>
+<details><summary><b> Why Python for data science ?</b></summary>
 
  >
 
 </details>
 
 
-<details><summary><b> </b></summary>
+<details><summary><b> What is difference between lists and tuples ?</b></summary>
 
  >
 
 </details>
 
 
-<details><summary><b> </b></summary>
+<details><summary><b>How can do webscaping in Python ? </b></summary>
 
  >
 
 </details>
 
 
-<details><summary><b> </b></summary>
+<details><summary><b>What are libraries in python ? </b></summary>
+
+ > 
+    Numpy
+    Pandas
+    Scipy
+    Scikit Learn
+    Tensorflow
+    Keras
+    Pytorch
+    Matplotlib
+    Seaborn
+
+
+</details>
+
+
+<details><summary><b>What is scikit learn library ? </b></summary>
+
+ >
+
+</details>
+
+<details><summary><b> What is scipy library ?</b></summary>
 
  >
 
 </details>
 
 
-<details><summary><b> </b></summary>
-
- >
-
-</details>
-
-<details><summary><b> </b></summary>
-
- >
-
-</details>
-
-
-<details><summary><b> </b></summary>
-
- >
-
-</details>
-
-
-
-<details><summary><b> </b></summary>
-
- >
-
-</details>
-
-
-<details><summary><b> </b></summary>
-
- >
-
-</details>
-
-
-<details><summary><b> </b></summary>
-
- >
-
-</details>
-
-
-<details><summary><b> </b></summary>
-
- >
-
-</details>
-
-
-<details><summary><b> </b></summary>
-
- >
-
-</details>
-
-
-<details><summary><b> </b></summary>
-
- >
-
-</details>
-
-<details><summary><b> </b></summary>
-
- >
-
-</details>
-
-<details><summary><b> </b></summary>
-
- >
-
-</details>
-
-<details><summary><b> </b></summary>
-
- >
-
-</details>
-
-<details><summary><b> </b></summary>
-
- >
-
-</details>
-
-
-<details><summary><b> </b></summary>
-
- >
-
-</details>
-
-
-<details><summary><b> </b></summary>
+<details><summary><b> What is Numpy Arrays ?</b></summary>
 
  >
 
@@ -1685,125 +1614,80 @@ v
 
 
 
-<details><summary><b> </b></summary>
+<details><summary><b>What is different between numpy and arrays ? </b></summary>
 
  >
 
 </details>
 
 
-<details><summary><b> </b></summary>
+<details><summary><b>What is Pandas ? </b></summary>
 
  >
 
 </details>
 
 
-<details><summary><b> </b></summary>
+<details><summary><b>What is use of Pandas ? </b></summary>
 
  >
 
 </details>
 
 
-
-<details><summary><b> </b></summary>
-
- >
-
-</details>
-
-
-<details><summary><b> </b></summary>
+<details><summary><b> How to find duplicate values and remove in data  by using pandas?</b></summary>
 
  >
 
 </details>
 
 
-
-<details><summary><b> </b></summary>
-
- >
-
-</details>
-
-
-
-<details><summary><b> </b></summary>
+<details><summary><b>How to find null values  in data by using pandas ? </b></summary>
 
  >
 
 </details>
 
 
+<details><summary><b> How to sort data using pandas ?</b></summary>
 
-<details><summary><b> </b></summary>
+ >
+
+</details>
+
+<details><summary><b>How you can fill null values ? </b></summary>
+
+ >
+
+</details>
+
+<details><summary><b> How to convert string to date object ?</b></summary>
+
+ >
+
+</details>
+
+<details><summary><b> What is Neural Network ?</b></summary>
+
+ >
+
+</details>
+
+<details><summary><b>Types of Neural Network ? </b></summary>
 
  >
 
 </details>
 
 
-<details><summary><b> </b></summary>
+<details><summary><b> What is MLP ?</b></summary>
 
  >
 
 </details>
 
-<details><summary><b> </b></summary>
 
- >
-
-</details>
-
-<details><summary><b> </b></summary>
-
- >
-
-</details>
-
-<details><summary><b> </b></summary>
-
- >
-
-</details>
-
-<details><summary><b> </b></summary>
-
- >
-
-</details>
-<details><summary><b> </b></summary>
-
- >
-
-</details>
-<details><summary><b> </b></summary>
-
- >
-
-</details>
-
-<details><summary><b> </b></summary>
-
- >
-
-</details>
-
-<details><summary><b> </b></summary>
-
- >
-
-</details>
-
-<details><summary><b> </b></summary>
-
- >
-
-</details>
-
-<details><summary><b> </b></summary>
+<details><summary><b> What is CNN ?v</b></summary>
 
  >
 
@@ -1811,13 +1695,139 @@ v
 
 
 
-<details><summary><b> </b></summary>
+<details><summary><b>What Is RNN ? </b></summary>
 
  >
 
 </details>
 
-<details><summary><b> </b></summary>
+
+<details><summary><b>What is LSTM ? </b></summary>
+
+ >
+
+</details>
+
+
+<details><summary><b>What is GRU ? </b></summary>
+
+ >
+
+</details>
+
+
+
+<details><summary><b> Why LSTM is better than Recurrent Neural Network  ?</b></summary>
+
+ >
+
+</details>
+
+
+<details><summary><b>What are encoders ? </b></summary>
+
+ >
+
+</details>
+
+
+
+<details><summary><b>What is GANS ? </b></summary>
+
+ >
+
+</details>
+
+
+
+<details><summary><b>What is Deep Belief Network ? </b></summary>
+
+ >
+
+</details>
+
+
+
+<details><summary><b>What is Activation function ? </b></summary>
+
+ >
+
+</details>
+
+
+<details><summary><b>How many types of Activation Functions are there ? </b></summary>
+
+ >
+
+</details>
+
+<details><summary><b>What is Dropout in NN ? </b></summary>
+
+ >
+
+</details>
+
+<details><summary><b>What are unsupervised Learning Algorithms in deep learning . </b></summary>
+
+ >
+
+</details>
+
+<details><summary><b>What NLP ? </b></summary>
+
+ >
+
+</details>
+
+<details><summary><b> What is tokenizing ?</b></summary>
+
+ >
+
+</details>
+<details><summary><b> What is Stemming ? </b></summary>
+
+ >
+
+</details>
+<details><summary><b> What is Lemmatizing ? </b></summary>
+
+ >
+
+</details>
+
+<details><summary><b> What is POS Tagging ?</b></summary>
+
+ >
+
+</details>
+
+<details><summary><b>What is Genism ? </b></summary>
+
+ >
+
+</details>
+
+<details><summary><b> What is Word2Vec Model ?</b></summary>
+
+ >
+
+</details>
+
+<details><summary><b> What is BiGram, Trigram ? </b></summary>
+
+ >
+
+</details>
+
+
+
+<details><summary><b>What are some applications of Machine learning ? </b></summary>
+
+ >
+
+</details>
+
+<details><summary><b>When to use deep learning methods ? </b></summary>
 
  >
 
