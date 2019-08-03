@@ -1235,21 +1235,21 @@ z = (X – μ) / σ
 
 <details><summary><b> What is ensemble learning? </b></summary>
 
- >
+ > [answer](https://www.analyticsvidhya.com/blog/2015/08/introduction-ensemble-learning/)
 
 </details>
 
 
 <details><summary><b> What is Decision Tree algorithm ? How the tree will split ?</b></summary>
 
- >
+ > [answer](https://www.geeksforgeeks.org/decision-tree-introduction-example/)
 
 </details>
 
 
 <details><summary><b> What is Random Forest algorithm ? How to pick no of trees ?</b></summary>
 
- >
+ > It consists of a large number of individual decision trees that operate as an ensemble.
 
 </details>
 
