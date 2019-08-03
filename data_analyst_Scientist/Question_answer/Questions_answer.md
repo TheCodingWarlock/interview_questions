@@ -957,6 +957,7 @@ z = (X – μ) / σ
 </details>
 
 
+##### Data Science and Machine learning  Interview Questions: 
 
 <details><summary><b> What is data science ? </b></summary>
 
@@ -1547,6 +1548,7 @@ v
 
 </details>
 
+##### Programming
 
 <details><summary><b> What is the current version of python ?</b></summary>
 
@@ -1605,6 +1607,7 @@ v
 
 </details>
 
+##### Numpy Interview questions and Answers
 
 <details><summary><b> What is Numpy Arrays ?</b></summary>
 
@@ -1620,6 +1623,7 @@ v
 
 </details>
 
+##### Pandas Interview Questions  and Answers
 
 <details><summary><b>What is Pandas ? </b></summary>
 
@@ -1666,6 +1670,8 @@ v
  >
 
 </details>
+
+##### Deep Learning Interview Questions
 
 <details><summary><b> What is Neural Network ?</b></summary>
 
@@ -1773,6 +1779,8 @@ v
 
 </details>
 
+##### Natural Language Processing  Interview questions. 
+
 <details><summary><b>What NLP ? </b></summary>
 
  >
@@ -1832,39 +1840,43 @@ v
  >
 
 </details>
-<details><summary><b> </b></summary>
+
+##### Tensorflow Interview questions and Answers:
+<details><summary><b>What is tensorflow ? </b></summary>
 
  >
 
 </details>
 
-<details><summary><b> </b></summary>
+<details><summary><b>What is tensor ? </b></summary>
 
  >
 
 </details>
 
-<details><summary><b> </b></summary>
-
- >
-
-</details>
-
-
-<details><summary><b> </b></summary>
-
- >
-
-</details>
-
-<details><summary><b> </b></summary>
+<details><summary><b>What is session ? </b></summary>
 
  >
 
 </details>
 
 
-<details><summary><b> </b></summary>
+<details><summary><b>What is constant in tensorflow ? </b></summary>
+
+ >
+
+</details>
+
+<details><summary><b>What is tensorboard ? </b></summary>
+
+ >
+
+</details>
+
+#####  Tableau Interview Questions:
+
+
+<details><summary><b>What is Tableau ? </b></summary>
 
  >
 
@@ -1872,27 +1884,28 @@ v
 
 
 
-<details><summary><b> </b></summary>
+<details><summary><b>What is difference between tableau and power BI ? </b></summary>
+
+ >
+
+</details>
+
+##### SQl inteview Questions:
+
+<details><summary><b>What is Sql ? </b></summary>
 
  >
 
 </details>
 
 
-<details><summary><b> </b></summary>
+<details><summary><b>Type of Joins in SQL ? </b></summary>
 
  >
 
 </details>
 
-
-<details><summary><b> </b></summary>
-
- >
-
-</details>
-
-<details><summary><b> </b></summary>
+<details><summary><b> Types of Clauses in SQL ?</b></summary>
 
  >
 
