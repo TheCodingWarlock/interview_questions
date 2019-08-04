@@ -6,6 +6,7 @@ Sources
 1. [edureka](https://www.edureka.co/blog/interview-questions/top-data-science-interview-questions-for-budding-data-scientists/)
 2. [Towards Data Science](https://towardsdatascience.com/top-30-data-science-interview-questions-7dd9a96d3f5c)
 3. [https://onlinetutorials.today](https://onlinetutorials.today/data-science/data-science-interview-questions-and-answers/)
+4. [dezyre.com](https://www.dezyre.com/article/data-analyst-interview-questions-to-prepare-for-in-2018/324)
 <br>
 
 <details><summary><b>What is Data Science? Also, list the differences between supervised and unsupervised learning. </b></summary>
@@ -17,14 +18,14 @@ Sources
    * Uses training dataset.
    * Used for prediction.
    * Enables classification and regression.
-> Unsupervised Learning
+ > Unsupervised Learning
    * Input data is unlabeled.
    * Uses the input data set.
    * Used for analysis.
    * Enables Classification, Density Estimation, & Dimension Reduction
 
  > Supervised learning: Supervised learning is the learning of the model where with input variable ( say, x) and an output variable (say, Y) and an algorithm to map the input to the output.
-That is, Y = f(X) 
+ That is, Y = f(X) 
 
  > Unsupervised learning is where only the input data (say, X) is present and no corresponding output variable is there.
 
@@ -144,9 +145,9 @@ That is, Y = f(X)
 
  > Univariate analyses are descriptive statistical analysis techniques which can be differentiated based on the number of variables involved at a given point of time. For example, the pie charts of sales based on territory involve only one variable and can the analysis can be referred to as univariate analysis.
 
-> The bivariate analysis attempts to understand the difference between two variables at a time as in a scatterplot. For example, analyzing the volume of sale and spending can be considered as an example of bivariate analysis.
+ > The bivariate analysis attempts to understand the difference between two variables at a time as in a scatterplot. For example, analyzing the volume of sale and spending can be considered as an example of bivariate analysis.
 
-> Multivariate analysis deals with the study of more than two variables to understand the effect of variables on the responses.
+ > Multivariate analysis deals with the study of more than two variables to understand the effect of variables on the responses.
 
 </details>
 
@@ -169,7 +170,7 @@ That is, Y = f(X)
 
  > Eigenvectors are used for understanding linear transformations. In data analysis, we usually calculate the eigenvectors for a correlation or covariance matrix. Eigenvectors are the directions along which a particular linear transformation acts by flipping, compressing or stretching.
 
-> Eigenvalue can be referred to as the strength of the transformation in the direction of eigenvector or the factor by which the compression occurs.
+ > Eigenvalue can be referred to as the strength of the transformation in the direction of eigenvector or the factor by which the compression occurs.
 
 </details>
 
@@ -178,8 +179,8 @@ That is, Y = f(X)
  >      False Positives are the cases where you wrongly classified a non-event as an event a.k.a Type I error.
     False Negatives are the cases where you wrongly classify events as non-events, a.k.a Type II error.
 
-> A false positive is where you receive a positive result for a test, when you should have received a negative results
-> False Negatives, you get a negative test result, but you should have got a positive test result.
+ > A false positive is where you receive a positive result for a test, when you should have received a negative results
+ > False Negatives, you get a negative test result, but you should have got a positive test result.
 
 </details>
 
@@ -193,7 +194,7 @@ That is, Y = f(X)
     A prenatal test comes back positive for Down’s Syndrome, when your fetus does not have the disorder(1).
     Virus software on your computer incorrectly identifies a harmless program as a malicious one.
 
-> False Negative
+ > False Negative
     Quality control in manufacturing; a false negative in this area means that a defective item passes through the cracks.
     In software testing, a false negative would mean that a test designed to catch something (i.e. a virus) has failed.
     In the Justice System, a false negative occurs when a guilty suspect is found “Not Guilty” and allowed to walk free.
@@ -227,7 +228,7 @@ That is, Y = f(X)
 
  > Logistic Regression often referred as logit model is a technique to predict the binary outcome from a linear combination of predictor variables. 
 
-For example, if you want to predict whether a particular political leader will win the election or not. In this case, the outcome of prediction is binary i.e. 0 or 1 (Win/Lose). The predictor variables here would be the amount of money spent for election campaigning of a particular candidate, the amount of time spent in campaigning, etc.
+ For example, if you want to predict whether a particular political leader will win the election or not. In this case, the outcome of prediction is binary i.e. 0 or 1 (Win/Lose). The predictor variables here would be the amount of money spent for election campaigning of a particular candidate, the amount of time spent in campaigning, etc.
 
 </details>
 
@@ -236,7 +237,7 @@ For example, if you want to predict whether a particular political leader will w
 
  > Recommender Systems are a subclass of information filtering systems that are meant to predict the preferences or ratings that a user would give to a product. Recommender systems are widely used in movies, news, research articles, products, social tags, music, etc.
 
-Examples include movie recommenders in IMDB, Netflix & BookMyShow, product recommenders in e-commerce sites like Amazon, eBay & Flipkart, YouTube video recommendations and game recommendations in Xbox.
+ Examples include movie recommenders in IMDB, Netflix & BookMyShow, product recommenders in e-commerce sites like Amazon, eBay & Flipkart, YouTube video recommendations and game recommendations in Xbox.
 
 
 </details>
@@ -261,7 +262,7 @@ Examples include movie recommenders in IMDB, Netflix & BookMyShow, product recom
 
  > Outlier values can be identified by using univariate or any other graphical analysis method. If the number of outlier values is few then they can be assessed individually but for a large number of outliers, the values can be substituted with either the 99th or the 1st percentile values.
 
-All extreme values are not outlier values. The most common ways to treat outlier values
+ All extreme values are not outlier values. The most common ways to treat outlier values
 
     To change the value and bring in within a range.
     To just remove the value.
@@ -287,11 +288,11 @@ All extreme values are not outlier values. The most common ways to treat outlier
 
  > The extent of the missing values is identified after identifying the variables with missing values. If any patterns are identified the analyst has to concentrate on them as it could lead to interesting and meaningful business insights.
 
-> If there are no patterns identified, then the missing values can be substituted with mean or median values (imputation) or they can simply be ignored. Assigning a default value which can be mean, minimum or maximum value. Getting into the data is important.
+ > If there are no patterns identified, then the missing values can be substituted with mean or median values (imputation) or they can simply be ignored. Assigning a default value which can be mean, minimum or maximum value. Getting into the data is important.
 
-> If it is a categorical variable, the default value is assigned. The missing value is assigned a default value. If you have a distribution of data coming, for normal distribution give the mean value.
+ > If it is a categorical variable, the default value is assigned. The missing value is assigned a default value. If you have a distribution of data coming, for normal distribution give the mean value.
 
-> If 80% of the values for a variable are missing then you can answer that you would be dropping the variable instead of treating the missing values.
+ > If 80% of the values for a variable are missing then you can answer that you would be dropping the variable instead of treating the missing values.
 
 </details>
 
@@ -300,12 +301,12 @@ All extreme values are not outlier values. The most common ways to treat outlier
 
  > Deep Learning is nothing but a paradigm of machine learning which has shown incredible promise in recent years. This is because of the fact that Deep Learning shows a great analogy with the functioning of the human brain.
 
-Now although Deep Learning has been around for many years, the major breakthroughs from these techniques came just in recent years. This is because of two main reasons:
+ Now although Deep Learning has been around for many years, the major breakthroughs from these techniques came just in recent years. This is because of two main reasons:
 
     The increase in the amount of data generated through various sources
     The growth in hardware resources required to run these models
 
-GPUs are multiple times faster and they help us build bigger and deeper deep learning models in comparatively less time than we required previously
+ GPUs are multiple times faster and they help us build bigger and deeper deep learning models in comparatively less time than we required previously
 
 </details>
 
@@ -326,9 +327,9 @@ GPUs are multiple times faster and they help us build bigger and deeper deep lea
 
  > To Understand Gradient Descent, Let’s understand what is a Gradient first.
 
-> A gradient measures how much the output of a function changes if you change the inputs a little bit. It simply measures the change in all weights with regard to the change in error. You can also think of a gradient as the slope of a function.
+ > A gradient measures how much the output of a function changes if you change the inputs a little bit. It simply measures the change in all weights with regard to the change in error. You can also think of a gradient as the slope of a function.
 
-> Gradient Descent can be thought of climbing down to the bottom of a valley, instead of climbing up a hill.  This is because it is a minimization algorithm that minimizes a given function (Activation Function).
+ > Gradient Descent can be thought of climbing down to the bottom of a valley, instead of climbing up a hill.  This is because it is a minimization algorithm that minimizes a given function (Activation Function).
 
 
 
@@ -339,15 +340,13 @@ GPUs are multiple times faster and they help us build bigger and deeper deep lea
 
  > Backpropagation is a training algorithm used for multilayer neural network. In this method, we move the error from an end of the network to all weights inside the network and thus allowing efficient computation of the gradient.
 
-It has the following steps:
+ It has the following steps:
 
     Forward Propagation of Training Data
     Derivatives are computed using output and target
     Back Propagate for computing derivative of error wrt output activation
     Using previously calculated derivatives for output
     Update the Weights
-
-
 
 </details>
 
@@ -396,16 +395,16 @@ It has the following steps:
 
     Low bias machine learning algorithms — Decision Trees, k-NN and SVM High bias machine learning algorithms — Linear Regression, Logistic Regression
 
->  “Variance is error introduced in your model due to complex machine learning algorithm, your model learns noise also from the training data set and performs bad on test data set.” It can lead high sensitivity and over fitting.
+ >  “Variance is error introduced in your model due to complex machine learning algorithm, your model learns noise also from the training data set and performs bad on test data set.” It can lead high sensitivity and over fitting.
 
-> Normally, as you increase the complexity of your model, you will see a reduction in error due to lower bias in the model. However, this only happens till a particular point. As you continue to make your model more complex, you end up over-fitting your model and hence your model will start suffering from high variance.
+ > Normally, as you increase the complexity of your model, you will see a reduction in error due to lower bias in the model. However, this only happens till a particular point. As you continue to make your model more complex, you end up over-fitting your model and hence your model will start suffering from high variance.
 
-> Bias, Variance trade off: The goal of any supervised machine learning algorithm is to have low bias and low variance to achieve good prediction performance.
+ > Bias, Variance trade off: The goal of any supervised machine learning algorithm is to have low bias and low variance to achieve good prediction performance.
 
     The k-nearest neighbours algorithm has low bias and high variance, but the trade-off can be changed by increasing the value of k which increases the number of neighbours that contribute to the prediction and in turn increases the bias of the model.
     The support vector machine algorithm has low bias and high variance, but the trade-off can be changed by increasing the C parameter that influences the number of violations of the margin allowed in the training data which increases the bias but decreases the variance.
 
-There is no escaping the relationship between bias and variance in machine learning. Increasing the bias will decrease the variance. Increasing the variance will decrease the bias.
+ There is no escaping the relationship between bias and variance in machine learning. Increasing the bias will decrease the variance. Increasing the variance will decrease the bias.
 
 </details>
 
@@ -415,9 +414,9 @@ There is no escaping the relationship between bias and variance in machine learn
 
  > Gradient is the direction and magnitude calculated during training of a neural network that is used to update the network weights in the right direction and by the right amount.
 
-> “Exploding gradients are a problem where large error gradients accumulate and result in very large updates to neural network model weights during training.” At an extreme, the values of weights can become so large as to overflow and result in NaN values.
+ > “Exploding gradients are a problem where large error gradients accumulate and result in very large updates to neural network model weights during training.” At an extreme, the values of weights can become so large as to overflow and result in NaN values.
 
-> This has the effect of your model being unstable and unable to learn from your training data. Now let’s understand what is the gradient.
+ > This has the effect of your model being unstable and unable to learn from your training data. Now let’s understand what is the gradient.
 
 </details>
 
@@ -466,7 +465,8 @@ There is no escaping the relationship between bias and variance in machine learn
  > Entropy
     A decision tree is built top-down from a root node and involve partitioning of data into homogenious subsets. ID3 uses enteropy to check the homogeneity of a sample. If the sample is completely homogenious then entropy is zero and if the sample is an equally divided it has entropy of one.
 
-> The Information Gain is based on the decrease in entropy after a dataset is split on an attribute. Constructing a decision tree is all about finding attributes that returns the highest information gain.
+ > The Information Gain is based on the decrease in entropy after a dataset is split on an attribute. Constructing a decision tree is all about finding attributes that returns the highest information gain.
+
 </details>
 
 
@@ -1922,37 +1922,76 @@ v
 </details>
 
 
-<details><summary><b> </b></summary>
-
- >
-
-</details>
 
 
-<details><summary><b> </b></summary>
-
- >
-
-</details>
+###### [dezyre.com](https://www.dezyre.com/article/data-analyst-interview-questions-to-prepare-for-in-2018/324)
 
 
-<details><summary><b> </b></summary>
+<details><summary><b>What is the difference between Data Mining and Data Analysis? </b></summary>
 
- >
+ > Data Mining
+     Data mining usually does not require any hypothesis. 	
+     Data Mining depends on clean and well-documented data. 
+     Results of data mining are not always easy to interpret. 	
+     Data mining algorithms automatically develop equations.
 
-</details>
-
-
-<details><summary><b> </b></summary>
-
- >
+ > Data Analysis
+    Data analysis begins with a question or an assumption.
+    Data analysis involves data cleaning.
+    Data analysts interpret the results and convey the to the stakeholders.
+	Data analysts have to develop their own equations based on the hypothesis.
 
 </details>
 
 
-<details><summary><b> </b></summary>
+<details><summary><b>Explain the typical data analysis process. </b></summary>
 
- >
+ > Data analysis deals with collecting, inspecting, cleansing, transforming and modelling data to glean valuable insights and support better decision making in an organization. The various steps involved in the data analysis process include –
+
+ > Data Exploration –
+
+    Having identified the business problem, a data analyst has to go through the data provided by the client to analyse the root cause of the problem.
+
+ > Data Preparation
+
+    This is the most crucial step of the data analysis process wherein any data anomalies (like missing values or detecting outliers) with the data have to be modelled in the right direction.
+
+ > Data Modelling
+
+    The modelling step begins once the data has been prepared. Modelling is an iterative process wherein the model is run repeatedly for improvements. Data modelling ensures that the best possible result is found for a given business problem.
+
+ > Validation
+
+    In this step, the model provided by the client and the model developed by the data analyst are validated against each other to find out if the developed model will meet the business requirements.
+
+ > Implementation of the Model and Tracking
+
+    This is the final step of the data analysis process wherein the model is implemented in production and is tested for accuracy and efficiency.
+
+</details>
+
+
+<details><summary><b> What is the difference between Data Mining and Data Profiling?</b></summary>
+
+ > Data Profiling, also referred to as Data Archeology is the process of assessing the data values in a given dataset for uniqueness, consistency and logic. Data profiling cannot identify any incorrect or inaccurate data but can detect only business rules violations or anomalies. The main purpose of data profiling is to find out if the existing data can be used for various other purposes.
+
+ Data Mining refers to the analysis of datasets to find relationships that have not been discovered earlier. It focusses on sequenced discoveries or identifying dependencies, bulk analysis, finding various types of attributes, etc.
+
+</details>
+
+
+<details><summary><b> How often should you retrain a data model? </b></summary>
+
+ > A good data analyst is the one who understands how changing business dynamics will affect the efficiency of a predictive model. You must be a valuable consultant who can use analytical skills and business acumen to find the root cause of business problems.
+
+ > The best way to answer this question would be to say that you would work with the client to define a time period in advance. However, I would refresh or retrain a model when the company enters a new market, consummate an acquisition or is facing emerging competition. As a data analyst, I would retrain the model as quick as possible to adjust with the changing behaviour of customers or change in market conditions.
+
+</details>
+
+
+<details><summary><b> What is data cleansing? Mention few best practices that you have followed while data cleansing. </b></summary>
+
+ > From a given dataset for analysis, it is extremely important to sort the information required for data analysis. Data cleaning is a crucial step in the analysis process wherein data is inspected to find any anomalies, remove repetitive data, eliminate any incorrect information, etc. Data cleansing does not involve deleting any existing information from the database, it just enhances the quality of data so that it can be used for analysis.
 
 </details>
 
