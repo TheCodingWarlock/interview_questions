@@ -1287,7 +1287,7 @@ z = (X – μ) / σ
 
 <details><summary><b> What is xgboost algorithm ?</b></summary>
 
- >
+ > [answer](https://machinelearningmastery.com/gentle-introduction-xgboost-applied-machine-learning/)
 
 </details>
 
