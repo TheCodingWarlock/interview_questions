@@ -1255,14 +1255,14 @@ z = (X – μ) / σ
 
 <details><summary><b>What is Bagging ? </b></summary>
 
- >
+ > Bagging is used typically when you want to reduce the variance while retaining the bias. n bagging, first you will have to sample the input data (with replacement) to generate multiple sets of input data. For each of those sets, the same baseline predictor (such as a SVM, Neural Net, etc) is run to get a trained model for each of the training set.
 
 </details>
 
 
 <details><summary><b> What is Boosting ? </b></summary>
 
- >
+ > Boosting is a machine learning ensemble meta-algorithm for primarily reducing bias, and also variance[1] in supervised learning, and a family of machine learning algorithms that convert weak learners to strong ones.[2] Boosting is based on the question posed by Kearns and Valiant (1988, 1989):[3][4] "Can a set of weak learners create a single strong learner?" A weak learner is defined to be a classifier that is only slightly correlated with the true classification (it can label examples better than random guessing). In contrast, a strong learner is a classifier that is arbitrarily well-correlated with the true classification. 
 
 </details>
 
