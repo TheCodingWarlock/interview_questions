@@ -1996,59 +1996,79 @@ v
 </details>
 
 
-<details><summary><b> </b></summary>
+<details><summary><b> How will you handle the QA process when developing a predictive model to forecast customer churn? </b></summary>
 
- >
+ > Data analysts require inputs from the business owners and a collaborative environment to operationalize analytics. To create and deploy predictive models in production there should be an effective, efficient and repeatable process. Without taking feedback from the business owner, the model will just be a one-and-done model.
 
-</details>
-
-
-
-<details><summary><b> </b></summary>
-
- >
-
-</details>
-
-
-<details><summary><b> </b></summary>
-
- >
-
-</details>
-
-
-<details><summary><b> </b></summary>
-
- >
+ The best way to answer this question would be to say that you would first partition the data into 3 different sets Training, Testing and Validation. You would then show the results of the validation set to the business owner by eliminating biases from the first 2 sets. The input from the business owner or the client will give you an idea on whether you model predicts customer churn with accuracy and provides desired results.
 
 </details>
 
 
 
-<details><summary><b> </b></summary>
+<details><summary><b> Mention some common problems that data analysts encounter during analysis.</b></summary>
 
- >
+ > 
+    Having a poor formatted data file. For instance, having CSV data with un-escaped newlines and commas in columns.
+    Having inconsistent and incomplete data can be frustrating.
+    Common Misspelling and Duplicate entries are a common data quality problem that most of the data analysts face.
+    Having different value representations and misclassified data.
+
 
 </details>
 
 
-<details><summary><b> </b></summary>
+<details><summary><b> What are the important steps in data validation process? </b></summary>
 
- >
+ > Data Validation is performed in 2 different steps-
 
-</details>
+ > Data Screening – In this step various algorithms are used to screen the entire data to find any erroneous or questionable values. Such values need to be examined and should be handled.
 
-<details><summary><b> </b></summary>
-
- >
+ > Data Verification- In this step each suspect value is evaluated on case by case basis and a decision is to be made if the values have to be accepted as valid or if the values have to be rejected as invalid or if they have to be replaced with some redundant values.
 
 </details>
 
 
-<details><summary><b> </b></summary>
+<details><summary><b>How will you create a classification to identify key customer trends in unstructured data? </b></summary>
 
- >
+ > A model does not hold any value if it cannot produce actionable results, an experienced data analyst will have a varying strategy based on the type of data being analysed. For example, if a customer complain was retweeted then should that data be included or not. Also, any sensitive data of the customer needs to be protected, so it is also advisable to consult with the stakeholder to ensure that you are following all the compliance regulations of the organization and disclosure laws, if any.
+
+ You can answer this question by stating that you would first consult with the stakeholder of the business to understand the objective of classifying this data. Then, you would use an iterative process by pulling new data samples and modifying the model accordingly and evaluating it for accuracy. You can mention that you would follow a basic process of mapping the data, creating an algorithm, mining the data, visualizing it and so on. However, you would accomplish this in multiple segments by considering the feedback from stakeholders to ensure that you develop an enriching model that can produce actionable results.
+
+</details>
+
+
+
+<details><summary><b> What is the criteria to say whether a developed data model is good or not?</b></summary>
+
+ > 
+    The developed model should have predictable performance.
+    A good data model can adapt easily to any changes in business requirements.
+    Any major data changes in a good data model should be scalable.
+    A good data model is one that can be easily consumed for actionable results.
+
+
+</details>
+
+
+<details><summary><b> According to you what are the qualities/skills that a data analyst must posses to be successful at this position. </b></summary>
+
+ > Problem Solving and Analytical thinking are the two important skills to be successful as a data analyst. One needs to skilled ar formatting data so that the gleaned information is available in a easy-to-read manner. Not to forget technical proficiency is of significant importance. You can also talk about other skills that the interviewer expects in an ideal candidate for the job position based on the given job description.
+
+</details>
+
+<details><summary><b>You are assigned a new data anlytics project. How will you begin with and what are the steps you will follow? </b></summary>
+
+ > The purpose of asking this question is that the interviewer wants to understand how you approach a given data problem and what is the though process you follow to ensure that you are organized. You can start answering this question by saying that you will start with finding the objective of the given problem and defining it so that there is solid direction on what need to be done. The next step would be to do data exploration and familiarise myself with the entire dataset which is very important when working with a new dataset.The next step would be to prepare the data for modelling which would including finding outliers, handling missing values and validating the data. Having validated the data, I will start data modelling untill I discover any meaningfuk insights. After this the final step would be to implement the model and track the output results.
+
+ This is the generic data analysis process that we have explained in this answer, however, the answer to your  question might slightly change based on the kind of data problem and the tools available at hand.
+
+</details>
+
+
+<details><summary><b>What do you know about  interquartile range as data analyst? </b></summary>
+
+ > A measure of the dispersion of data that is shown in a box plot is referred to as the interquartile range. It is the difference between the upper and the lower quartile.
 
 </details>
 
