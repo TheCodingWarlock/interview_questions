@@ -694,10 +694,337 @@ JSP actions use constructs in XML syntax to control the behavior of the servlet 
 </details>
 
 
+<details><summary><b> Explain breadth first and depth first search </b></summary>
+  
+</details>
+
 <details><summary><b> </b></summary>
   
 </details>
 
+<details><summary><b> </b></summary>
+  
+</details>
+
+<details><summary><b> </b></summary>
+  
+</details>
+
+
+<details><summary><b> </b></summary>
+  
+</details>
+
+
+<details><summary><b> </b></summary>
+  
+</details>
+
+
+<details><summary><b> </b></summary>
+  
+</details>
+
+
+<details><summary><b> </b></summary>
+  
+</details>
+
+
+<details><summary><b> </b></summary>
+  
+</details>
+
+
+
+<details><summary><b> </b></summary>
+  
+</details>
+
+
+<details><summary><b> </b></summary>
+  
+</details>
+
+<details><summary><b> </b></summary>
+  
+</details>
+
+
+<details><summary><b> </b></summary>
+  
+</details>
+
+
+<details><summary><b> </b></summary>
+  
+</details>
+
+
+<details><summary><b> </b></summary>
+  
+</details>
+
+
+<details><summary><b> </b></summary>
+  
+</details>
+
+
+<details><summary><b> </b></summary>
+  
+</details>
+
+
+<details><summary><b> </b></summary>
+  
+</details>
+
+
+<details><summary><b> </b></summary>
+  
+</details>
+
+<details><summary><b> </b></summary>
+  
+</details>
+
+
+<details><summary><b> </b></summary>
+  
+</details>
+
+<details><summary><b> </b></summary>
+  
+</details>
+
+<details><summary><b> </b></summary>
+  
+</details>
+
+<details><summary><b> </b></summary>
+  
+</details>
+
+<details><summary><b> </b></summary>
+  
+</details>
+
+<details><summary><b> </b></summary>
+  
+</details>
+
+
+<details><summary><b> </b></summary>
+  
+</details>
+
+<details><summary><b> </b></summary>
+  
+</details>
+
+<details><summary><b> </b></summary>
+  
+</details>
+
+<details><summary><b> </b></summary>
+  
+</details>
+
+
+<details><summary><b> </b></summary>
+  
+</details>
+
+
+<details><summary><b> </b></summary>
+  
+</details>
+
+
+<details><summary><b> </b></summary>
+  
+</details>
+
+<details><summary><b> </b></summary>
+  
+</details>
+
+
+<details><summary><b> </b></summary>
+  
+</details>
+
+
+<details><summary><b> </b></summary>
+  
+</details>
+
+<details><summary><b> </b></summary>
+  
+</details>
+
+
+
+<details><summary><b> </b></summary>
+  
+</details>
+
+
+<details><summary><b> </b></summary>
+  
+</details>
+
+<details><summary><b> </b></summary>
+  
+</details>
+
+
+<details><summary><b> </b></summary>
+  
+</details>
+
+
+<details><summary><b> </b></summary>
+  
+</details>
+
+
+<details><summary><b> </b></summary>
+  
+</details>
+
+
+
+<details><summary><b> </b></summary>
+  
+</details>
+
+<details><summary><b> </b></summary>
+  
+</details>
+
+
+<details><summary><b> </b></summary>
+  
+</details>
+
+<details><summary><b> </b></summary>
+  
+</details>
+
+
+<details><summary><b> </b></summary>
+  
+</details>
+
+<details><summary><b> </b></summary>
+  
+</details>
+
+<details><summary><b> </b></summary>
+  
+</details>
+
+
+<details><summary><b> </b></summary>
+  
+</details>
+
+
+<details><summary><b> </b></summary>
+  
+</details>
+
+
+<details><summary><b> </b></summary>
+  
+</details>
+
+
+<details><summary><b> </b></summary>
+  
+</details>
+
+
+<details><summary><b> </b></summary>
+  
+</details>
+
+
+<details><summary><b> </b></summary>
+  
+</details>
+
+
+<details><summary><b> </b></summary>
+  
+</details>
+
+
+<details><summary><b> </b></summary>
+  
+</details>
+
+
+<details><summary><b> </b></summary>
+  
+</details>
+
+<details><summary><b> </b></summary>
+  
+</details>
+
+
+<details><summary><b> </b></summary>
+  
+</details>
+
+
+<details><summary><b> </b></summary>
+  
+</details>
+
+<details><summary><b> </b></summary>
+  
+</details>
+
+
+<details><summary><b> </b></summary>
+  
+</details>
+
+<details><summary><b> </b></summary>
+  
+</details>
+
+<details><summary><b> </b></summary>
+  
+</details>
+
+<details><summary><b> </b></summary>
+  
+</details>
+
+<details><summary><b> </b></summary>
+  
+</details>
+
+<details><summary><b> </b></summary>
+  
+</details>
+
+<details><summary><b> </b></summary>
+  
+</details>
+
+<details><summary><b> </b></summary>
+  
+</details>
+
+<details><summary><b> </b></summary>
+  
+</details>
 
 
 
