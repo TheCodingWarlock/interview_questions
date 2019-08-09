@@ -46,7 +46,13 @@ For example, given `[10, 15, 3, 7`] and `k` of `17`, return`true` since `10 + 7 
 </details>
 
 
-<details><summary><b> </b></summary>
+<details><summary><b> Reverse name</b></summary>
+
+> `def reverse(s): 
+  str = "" 
+  for i in s: 
+    str = i + str
+  return str `
   
 </details>
 
