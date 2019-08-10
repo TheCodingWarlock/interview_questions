@@ -113,38 +113,65 @@ You should return 45, as it is (3 + 2) * (4 + 5).
 </details>
 
 
-<details><summary><b> </b></summary>
+<details><summary><b> Implement a URL shortener with the following methods:
+
+    shorten(url), which shortens the url into a six-character alphanumeric string, such as zLg6wl.
+    restore(short), which expands the shortened string into the original url. If no such shortened string exists, return null.
+
+Hint: What if we enter the same URL twice?
+</b></summary>
   
 </details>
 
 
-<details><summary><b> </b></summary>
+<details><summary><b> Given a 2D matrix of characters and a target word, write a function that returns whether the word can be found in the matrix by going left-to-right, or up-to-down.
+`[['F', 'A', 'C', 'I'],
+ ['O', 'B', 'Q', 'P'],
+ ['A', 'N', 'O', 'B'],
+ ['M', 'A', 'S', 'S']]`
+
+ and the target word 'FOAM', you should return true, since it's the leftmost column. Similarly, given the target word 'MASS', you should return true, since it's the last row.
+</b></summary>
   
 </details>
 
 
 
-<details><summary><b> </b></summary>
+<details><summary><b> Given an unsorted array of integers, find the length of the longest consecutive elements sequence.
+
+For example, given [100, 4, 200, 1, 3, 2], the longest consecutive element sequence is [1, 2, 3, 4]. Return its length: 4.
+
+Your algorithm should run in O(n) complexity. </b></summary>
   
 </details>
 
 
-<details><summary><b> </b></summary>
+<details><summary><b> Given a number in the form of a list of digits, return all possible permutations.
+
+For example, given [1,2,3], return [[1,2,3],[1,3,2],[2,1,3],[2,3,1],[3,1,2],[3,2,1]] </b></summary>
   
 </details>
 
 
-<details><summary><b> </b></summary>
+<details><summary><b> Using a read7() method that returns 7 characters from a file, implement readN(n) which reads n characters.
+
+For example, given a file with the content “Hello world”, three read7() returns “Hello w”, “orld” and then “”. </b></summary>
   
 </details>
 
 
 
-<details><summary><b> </b></summary>
+<details><summary><b> Given an array of numbers, find the length of the longest increasing subsequence in the array. The subsequence does not necessarily have to be contiguous.
+
+For example, given the array [0, 8, 4, 12, 2, 10, 6, 14, 1, 9, 5, 13, 3, 11, 7, 15], the longest increasing subsequence has length 6: it is 0, 2, 6, 9, 11, 15. </b></summary>
   
 </details>
 
-<details><summary><b> </b></summary>
+<details><summary><b> A number is considered perfect if its digits sum up to exactly 10.
+
+Given a positive integer n, return the n-th perfect number.
+
+For example, given 1, you should return 19. Given 2, you should return 28. </b></summary>
   
 </details>
 
