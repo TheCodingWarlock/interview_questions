@@ -695,15 +695,23 @@ JSP actions use constructs in XML syntax to control the behavior of the servlet 
 
 
 <details><summary><b> Explain breadth first and depth first search </b></summary>
-  
+
+> BFS is a traversing algorithm where you should start traversing from a selected node (source or starting node) and traverse the graph layerwise thus exploring the neighbour nodes (nodes which are directly connected to source node). You must then move towards the next-level neighbour nodes.
+
+> The DFS algorithm is a recursive algorithm that uses the idea of backtracking. It involves exhaustive searches of all the nodes by going ahead, if possible, else by backtracking.
+
 </details>
 
-<details><summary><b> </b></summary>
-  
+<details><summary><b> Explain Linear Search </b></summary>
+
+> Linear search is used on a collections of items. It relies on the technique of traversing a list from start to end by exploring properties of all the elements that are found on the way. 
+
 </details>
 
-<details><summary><b> </b></summary>
-  
+<details><summary><b> Explain binary search </b></summary>
+
+> Search a sorted array by repeatedly dividing the search interval in half. Begin with an interval covering the whole array. If the value of the search key is less than the item in the middle of the interval, narrow the interval to the lower half. Otherwise narrow it to the upper half. Repeatedly check until the value is found or the interval is empty.
+
 </details>
 
 <details><summary><b> </b></summary>
