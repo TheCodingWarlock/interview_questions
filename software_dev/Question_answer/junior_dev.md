@@ -714,12 +714,17 @@ JSP actions use constructs in XML syntax to control the behavior of the servlet 
 
 </details>
 
-<details><summary><b> </b></summary>
+<details><summary><b> Explain Ternary search </b></summary>
+
+> is a searching technique that is used to determine the position of a specific value in an array. In binary search, the sorted array is divided into two parts while in ternary search, it is divided into 3 parts and then you determine in which part the element exists.  
+
   
 </details>
 
 
-<details><summary><b> </b></summary>
+<details><summary><b>Explain bubble sort </b></summary>
+
+> [](https://www.hackerearth.com/practice/algorithms/sorting/bubble-sort/tutorial/)
   
 </details>
 
