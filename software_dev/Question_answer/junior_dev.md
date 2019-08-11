@@ -724,18 +724,31 @@ JSP actions use constructs in XML syntax to control the behavior of the servlet 
 
 <details><summary><b>Explain bubble sort </b></summary>
 
-> [](https://www.hackerearth.com/practice/algorithms/sorting/bubble-sort/tutorial/)
+> Bubble sort is based on the idea of repeatedly comparing pairs of adjacent elements and then swapping their positions if they exist in the wrong order. 
+> [ans](https://www.hackerearth.com/practice/algorithms/sorting/bubble-sort/tutorial/)
   
 </details>
 
 
-<details><summary><b> </b></summary>
-  
+<details><summary><b> Explain selection sort </b></summary>
+ 
+> The Selection sort algorithm is based on the idea of finding the minimum or maximum element in an unsorted array and then putting it in its correct position in a sorted array.
+
+Assume that the array  A = [7,5,4,2]needs to be sorted in ascending order.
+
+The minimum element in the array i.e. 2 is searched for and then swapped with the element that is currently located at the first position, i.e. 7. Now the minimum element in the remaining unsorted array is searched for and put in the second position, and so on.
+
+> [more](https://www.hackerearth.com/practice/algorithms/sorting/selection-sort/tutorial/) 
+
 </details>
 
 
-<details><summary><b> </b></summary>
-  
+<details><summary><b> Explain insertion sort </b></summary>
+
+> Insertion sort is based on the idea that one element from the input elements is consumed in each iteration to find its correct position i.e, the position to which it belongs in a sorted array.
+
+It iterates the input elements by growing the sorted array at each iteration. It compares the current element with the largest value in the sorted array. If the current element is greater, then it leaves the element in its place and moves on to the next element else it finds its correct position in the sorted array and moves it to that position. This is done by shifting all the elements, which are larger than the current element, in the sorted array to one position ahead
+
 </details>
 
 
