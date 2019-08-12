@@ -752,13 +752,18 @@ It iterates the input elements by growing the sorted array at each iteration. It
 </details>
 
 
-<details><summary><b> </b></summary>
-  
+<details><summary><b> Explain Merge  </b></summary>
+
+
+> Merge sort is a divide-and-conquer algorithm based on the idea of breaking down a list into several sub-lists until each sublist consists of a single element and merging those sublists in a manner that results into a sorted list. 
+
 </details>
 
 
-<details><summary><b> </b></summary>
-  
+<details><summary><b> What is big 0 notation </b></summary>
+
+> Big O notation is used in Computer Science to describe the performance or complexity of an algorithm. 
+
 </details>
 
 
