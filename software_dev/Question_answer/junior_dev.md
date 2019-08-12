@@ -18,7 +18,7 @@ one of the best strategy is to focus on the employer and your fit for this job. 
 
 > show you have a life but keep it relevant to the job
 
-<details><summary><b>What is difference between overwriting and overloading in OOP.</b></summary>
+<details><summary><b>What is difference between overloading and overriding in OOP.</b></summary>
 <p>
 
 > * Overloading* occurs when two or more methods in one class have the same method name but different parameters.<br>
