@@ -14,9 +14,11 @@ Sources
 one of the best strategy is to focus on the employer and your fit for this job. No body wants to know about your 10 cats.
 </p>
 </details>
-<details><summary><b>Other than study and programming, what you like to do during your free time.
+<details><summary><b>Other than study and programming, what you like to do during your free time.</b></summary>
 
 > show you have a life but keep it relevant to the job
+
+</details>
 
 <details><summary><b>What is difference between overloading and overriding in OOP.</b></summary>
 <p>
@@ -108,9 +110,9 @@ def common_member(a, b):
         print(a_set & b_set)
     else:
         print("No common elements")
-    a = [1, 2, 3, 4, 5]
-    b = [3, 2, 9, 3, 7]
-    common_member(a, b)
+a = [1, 2, 3, 4, 5]
+b = [3, 2, 9, 3, 7]
+common_member(a, b)
 ```
 
 
@@ -212,9 +214,9 @@ SELECT ProductID, count(*) AS NumSales FROM Orders GROUP BY ProductID DESC;
 
 <details><summary><b> Why we need to do algorithm analysis?  </b></summary>
 
->A problem can be solved in more than one ways. So, many solution algorithms can be derived for a given problem. We analyze available algorithms to find and implement the best suitable algorithm.
+> A problem can be solved in more than one ways. So, many solution algorithms can be derived for a given problem. We analyze available algorithms to find and implement the best suitable algorithm.
 
-An algorithm are generally analyzed on two factors − time and space. That is, how much execution time and how much extra space required by the algorithm.
+> An algorithm are generally analyzed on two factors − time and space. That is, how much execution time and how much extra space required by the algorithm.
 
 </details>
 
