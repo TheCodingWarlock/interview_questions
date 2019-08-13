@@ -1,4 +1,4 @@
-# Junior Developer Interview Questions
+# Developer Interview Questions
 
 Common Junior dev Questions curated from the internet.<br>
 *Disclaimer* I'm not in HR.<br>
