@@ -300,11 +300,11 @@ The following operations are commonly performed on any data-structure:
 
 <details><summary><b>Why do we use stacks? </b></summary>
  
- > In data-structure, stack is an Abstract Data Type (ADT) used to store and retrieve values in Last In First Out (LIFO) method.
+> In data-structure, stack is an Abstract Data Type (ADT) used to store and retrieve values in Last In First Out (LIFO) method.
 
-Stacks follows LIFO method and addition and retrieval of a data item takes only Ο(n) time. Stacks are used where we need to access data in the reverse order or their arrival. Stacks are used commonly in recursive function calls, expression parsing, depth first traversal of graphs etc.
+> Stacks follows LIFO method and addition and retrieval of a data item takes only Ο(n) time. Stacks are used where we need to access data in the reverse order or their arrival. Stacks are used commonly in recursive function calls, expression parsing, depth first traversal of graphs etc.
 
-The below operations can be performed on a stack:
+> The below operations can be performed on a stack:
 
     push() − adds an item to stack
     pop() − removes the top stack item
@@ -319,15 +319,12 @@ The below operations can be performed on a stack:
 
 
 <details><summary><b> Why do we use queues?  </b></summary>
-  
 
+> Queue is an abstract data structure (ADS), somewhat similar to stack. In contrast to stack, queue is opened at both end. One end is always used to insert data (enqueue) and the other is used to remove data (dequeue). Queue follows First-In-First-Out (FIFO) methodology, i.e., the data item stored first will be accessed first.
 
+> As queues follows FIFO method, they are used when we need to work on data-items in exact sequence of their arrival. Every operating system maintains queues of various processes. Priority queues and breadth first traversal of graphs are some examples of queues.
 
-Queue is an abstract data structure (ADS), somewhat similar to stack. In contrast to stack, queue is opened at both end. One end is always used to insert data (enqueue) and the other is used to remove data (dequeue). Queue follows First-In-First-Out (FIFO) methodology, i.e., the data item stored first will be accessed first.
-
-As queues follows FIFO method, they are used when we need to work on data-items in exact sequence of their arrival. Every operating system maintains queues of various processes. Priority queues and breadth first traversal of graphs are some examples of queues.
-
-The below operations can be performed on a queue:
+> The below operations can be performed on a queue:
 
     enqueue() − adds an item to rear of the queue
     dequeue() − removes the item from front of the queue
@@ -360,9 +357,9 @@ Comparing the two:
 
 <details><summary><b> What is an average case complexity of Bubble Sort? </b></summary>
    
-   > Bubble sort, sometimes referred to as sinking sort, is a simple sorting algorithm that repeatedly steps through the list to be sorted, compares each pair of adjacent items and swaps them if they are in the wrong order. The pass through the list is repeated until no swaps are needed, which indicates that the list is sorted.
+> Bubble sort, sometimes referred to as sinking sort, is a simple sorting algorithm that repeatedly steps through the list to be sorted, compares each pair of adjacent items and swaps them if they are in the wrong order. The pass through the list is repeated until no swaps are needed, which indicates that the list is sorted.
 
-Bubble sort has a worst-case and average complexity of О(n2), where n is the number of items being sorted. Most practical sorting algorithms have substantially better worst-case or average complexity, often O(n log n). Therefore, bubble sort is not a practical sorting algorithm.
+> Bubble sort has a worst-case and average complexity of О(n2), where n is the number of items being sorted. Most practical sorting algorithms have substantially better worst-case or average complexity, often O(n log n). Therefore, bubble sort is not a practical sorting algorithm.
 
 </details>
 
