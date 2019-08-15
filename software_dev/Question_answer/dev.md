@@ -635,9 +635,7 @@ Comparing the two:
 
 <details><summary><b> What are JSP actions?  </b></summary>
  
-> 
-
-JSP actions use constructs in XML syntax to control the behavior of the servlet engine. JSP actions are executed when a JSP page is requested. They can be dynamically inserted into a file, re-use JavaBeans components, forward the user to another page, or generate HTML for the Java plugin.Some of the available actions are listed below:
+> JSP actions use constructs in XML syntax to control the behavior of the servlet engine. JSP actions are executed when a JSP page is requested. They can be dynamically inserted into a file, re-use JavaBeans components, forward the user to another page, or generate HTML for the Java plugin.Some of the available actions are listed below:
 
     jsp:include – includes a file, when the JSP page is requested.
     jsp:useBean – finds or instantiates a JavaBean.
